@@ -51,7 +51,7 @@ i18n
           about: {
             title: "How to Play",
             intro: "<p>Guess the <strong>MTRDLE</strong> in 6 tries.</p><p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using interchanges between them.</p><p>You need to guess a specific set of three trains that can make the trip.</p>",
-            explanation: "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>midday schedule</strong> (i.e. LOHAS Park branch Tseung Kwan O line trains terminate at Tiu Keng Leng).</p>",
+            explanation: "<p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p><p>Routing for each train line is based on <strong>weekday midday schedule</strong> (i.e. LOHAS Park branch Tseung Kwan O line trains terminate at Tiu Keng Leng).</p>",
             examples: {
               title: "Examples",
               correct: "is in the correct spot of the trip.",
@@ -101,8 +101,8 @@ i18n
           },
           about: {
             title: "遊戲說明",
-            intro: "<p>用 6 次機會猜今天的 <strong>MTRDLE</strong> 謎。</p><p>每個猜測都必須是 <strong>真實的路綫使用 3 輛列車</strong>。</p><p>您需要猜測可以進行這次旅行的一組特定 3 輛列車。</p>",
-            explanation: "<p>每天的謎<strong>可能有多條路綫</strong>能完成旅程，但您的目標是找到與 <strong>當天的相匹配的路綫</strong>。 旅程謎的方案路綫 <strong>可能不是</strong> 最快或有效的路綫。</p><p>路綫是基於<strong>平日非繁忙時刻表</strong>(例：將軍澳綫康城支綫列車在調景嶺終點站)。</p>",
+            intro: "<p>用 6 次機會猜今天的 <strong>MTRDLE</strong> 謎。</p><p>每個猜測都必須是<strong>真實的路綫使用 3 輛列車</strong>。</p><p>您需要猜測可進行某個旅程的一組特定 3 輛列車。</p>",
+            explanation: "<p>每天的謎<strong>可能有多條路綫</strong>能完成旅程，但您的目標是找到與<strong>當天的相匹配的路綫</strong>。 旅程謎的方案路綫<strong>可能不是</strong>最快或有效的路綫。</p><p>路綫是基於<strong>平日非繁忙時刻表</strong>(例：將軍澳綫康城支綫列車在調景嶺終點站)。</p>",
             examples: {
               title: "例子",
               correct: "在旅程中的正確位置。",
@@ -112,7 +112,7 @@ i18n
             about: {
               title: "關於",
               subwaydle: "該遊戲是從基於紐約地鐵的原始 <1>Subwaydle</1> 遊戲衍生而來的。",
-              inspirations: "受 <1>Wordle</1>、<3>其開源克隆</3>、<5>Nerdle</5>和 <7>New York Transit Museum</7> 的啟發。",
+              inspirations: "受 <1>Wordle</1>、<3>其開源克隆</3>、<5>Nerdle</5> 和 <7>New York Transit Museum</7> 的啟發。",
               created: "創造者 <1>Sunny Ng</1>",
               other_projects: "我的其他項目："
             }

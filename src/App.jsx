@@ -187,13 +187,13 @@ const App = () => {
         <Icon className='float-right' name='question circle outline' size='large' link onClick={handleAboutOpen} />
         {
           i18n.language.startsWith('zh') &&
-          <a href="#" className='float-right' onClick={() => i18n.changeLanguage("en")}>
+          <a href="#" className='float-right menu' onClick={() => i18n.changeLanguage("en")}>
             English
           </a>
         }
         {
           i18n.language.startsWith('en') &&
-          <a href="#" className='float-right' onClick={() => i18n.changeLanguage("zh")}>
+          <a href="#" className='float-right menu' onClick={() => i18n.changeLanguage("zh")}>
             中文
           </a>
         }
