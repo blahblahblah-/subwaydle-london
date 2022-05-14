@@ -1,7 +1,7 @@
 import answers from './../data/answers.json';
 import solutions from './../data/solutions.json';
 
-const GAME_EPOCH = new Date('May 12, 2022 00:00:00').valueOf();
+const GAME_EPOCH = new Date('May 14, 2022 00:00:00').valueOf();
 
 const today = new Date();
 const now = Date.now();
@@ -13,7 +13,7 @@ export const isValidGuess = (guess) => {
 }
 
 export const todayGameIndex = () => {
-  return Math.floor(daysBetween(GAME_EPOCH, now));
+  return Math.floor(Math.max(daysBetween(GAME_EPOCH, now), 0));
 }
 
 const treatAsUTC = (date) => {

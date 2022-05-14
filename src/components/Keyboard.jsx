@@ -5,6 +5,19 @@ import routes from '../data/routes.json';
 
 import './Keyboard.scss';
 
+const KEYBOARD_MAPPING = {
+  "A": "AEL",
+  "D": "DRL",
+  "E": "EAL",
+  "I": "ISL",
+  "K": "KTL",
+  "S": "SIL",
+  "T": "TWL",
+  "O": "TKL",
+  "M": "TML",
+  "C": "TCL"
+}
+
 const Keyboard = (props) => {
   const { onChar, onDelete, onEnter, correctRoutes, presentRoutes, absentRoutes } = props;
 
@@ -16,14 +29,8 @@ const Keyboard = (props) => {
         onDelete();
       } else {
         const key = e.key.toUpperCase()
-        if (key.length === 1 && routes[key]) {
-          onChar(key);
-        } else if (key === 'S') {
-          onChar('GS');
-        } else if (key === 'K') {
-          onChar('FS');
-        } else if (key === 'I') {
-          onChar('SI');
+        if (KEYBOARD_MAPPING[key]) {
+          onChar(KEYBOARD_MAPPING[key]);
         }
       }
     }
