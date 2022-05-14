@@ -88,8 +88,8 @@ i18n
             total_games: "遊戲次數",
             success_rate: "勝率 %",
             current_streak: "目前連勝",
-            max_streak: "最大連勝",
-            guess_distribution: "猜測數分佈",
+            max_streak: "最長連勝",
+            guess_distribution: "猜測次數分佈",
           },
           solution: {
             win_message: "好嘢！你完成咗今日嘅旅程！",
