@@ -28,17 +28,17 @@ const AboutModal = (props) => {
                       <Icon name="check" fitted />
                     </Label>
                   }
-                  <TrainLabel id='ISL' size='medium' />
+                  <TrainLabel id='ISL' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TWL' size='medium' />
+                  <TrainLabel id='TWL' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='KTL' size='medium' />
+                  <TrainLabel id='KTL' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
@@ -52,7 +52,7 @@ const AboutModal = (props) => {
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='EAL' size='medium' />
+                  <TrainLabel id='EAL' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -62,12 +62,12 @@ const AboutModal = (props) => {
                       <Icon name="arrows alternate horizontal" fitted />
                     </Label>
                   }
-                  <TrainLabel id='KTL' size='medium' />
+                  <TrainLabel id='KTL' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TML' size='medium' />
+                  <TrainLabel id='TML' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
@@ -80,12 +80,12 @@ const AboutModal = (props) => {
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TML' size='medium' />
+                  <TrainLabel id='TML' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TCL' size='medium' />
+                  <TrainLabel id='TCL' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -95,7 +95,7 @@ const AboutModal = (props) => {
                       <Icon name="x" fitted />
                     </Label>
                   }
-                  <TrainLabel id='AEL' size='medium' />
+                  <TrainLabel id='AEL' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>

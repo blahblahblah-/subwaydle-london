@@ -31,10 +31,11 @@ const innerStyle = (name, size, shortenedAlternateName) => {
 }
 
 const TrainLabel = (props) => {
-  const { id, size } = props;
+  const { id } = props;
   const { i18n } = useTranslation();
   const train = routes[id];
   const name = i18n.language.startsWith('zh') ? train.name_chinese : train.name_english;
+  const size = i18n.language.startsWith('zh') ? 'medium' : 'small';
 
   return (
     <Label style={style(train)} size={size}>

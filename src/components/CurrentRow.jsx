@@ -12,7 +12,7 @@ const CurrentRow = (props) => {
           return (
             <Grid.Column key={`guess-${index}`}>
               <Segment placeholder>
-                <TrainLabel id={routeId} size='medium' />
+                <TrainLabel id={routeId} size='small' />
               </Segment>
             </Grid.Column>
           );

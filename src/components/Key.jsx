@@ -23,7 +23,7 @@ const Key = (props) => {
   return (
     <Grid.Column className='key' stretched>
       <Button disabled={disabled} onClick={handleClick} className={className}>
-        <TrainLabel id={id} size='medium' />
+        <TrainLabel id={id} size='small' />
       </Button>
     </Grid.Column>
   )
