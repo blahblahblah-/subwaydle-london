@@ -69,7 +69,7 @@ const Keyboard = (props) => {
       </Grid.Row>
       <Grid.Row>
         {
-          ["TCL", "DRL", "AEL"].map((routeId) => {
+          ["TCL", "AEL", "SIL"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -85,7 +85,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row columns={2}>
         {
-          ["TKL", "SIL"].map((routeId) => {
+          ["TKL", "DRL"].map((routeId) => {
             return (
               <Key
                 id={routeId}

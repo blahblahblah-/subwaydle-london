@@ -9,7 +9,7 @@ const GameGrid = (props) => {
   const { currentGuess, guesses, attempts, inPlay } = props;
   const emptyRows = [...Array(inPlay ? (attempts - 1) : attempts).keys()];
   return (
-    <Grid centered columns={4} className='game-grid'>
+    <Grid centered columns={3} className='game-grid'>
       {
         guesses.slice().map((g, i) => {
           emptyRows.pop();
