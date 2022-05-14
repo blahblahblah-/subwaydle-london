@@ -19,7 +19,7 @@ const AboutModal = (props) => {
         </Trans>
         <Header as='h4'>{ t('about.examples.title') }</Header>
         <Segment basic>
-          <Grid centered columns={4} className='game-grid'>
+          <Grid centered columns={3} className='game-grid'>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder className='correct'>
@@ -48,7 +48,7 @@ const AboutModal = (props) => {
         <p><TrainLabel id='ISL' size='small' /> { t('about.examples.correct') }</p>
 
         <Segment basic>
-          <Grid centered columns={4} className='game-grid'>
+          <Grid centered columns={3} className='game-grid'>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
@@ -67,7 +67,7 @@ const AboutModal = (props) => {
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TKL' size='medium' />
+                  <TrainLabel id='TML' size='medium' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
@@ -76,7 +76,7 @@ const AboutModal = (props) => {
         <p><TrainLabel id='KTL' size='small' /> { t('about.examples.present') }</p>
 
         <Segment basic>
-          <Grid centered columns={4} className='game-grid'>
+          <Grid centered columns={3} className='game-grid'>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
