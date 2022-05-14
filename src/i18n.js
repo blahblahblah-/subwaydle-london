@@ -70,7 +70,7 @@ i18n
       },
       zh: {
         translation: {
-          hint: "{{origin}}站 往 {{destination}}站 轉兩次車",
+          hint: "{{origin}}站 往 {{destination}}站 轉車兩次",
           error: {
             not_enough: "路綫不足",
             not_valid: "路綫錯誤"
