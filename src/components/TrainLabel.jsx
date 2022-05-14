@@ -1,4 +1,6 @@
 import { Label } from 'semantic-ui-react';
+import { useTranslation, Trans } from 'react-i18next';
+
 import routes from '../data/routes.json';
 
 const classNames = (size) => {
@@ -30,8 +32,9 @@ const innerStyle = (name, size, shortenedAlternateName) => {
 
 const TrainLabel = (props) => {
   const { id, size } = props;
+  const { i18n } = useTranslation();
   const train = routes[id];
-  const name = train.name_english;
+  const name = i18n.language.startsWith('zh') ? train.name_chinese : train.name_english;
 
   return (
     <Label style={style(train)} size={size}>

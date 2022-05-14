@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Header, Segment, Icon, Message } from 'semantic-ui-react';
+import { useTranslation, Trans } from 'react-i18next';
 
 import GameGrid from './components/GameGrid';
 import Keyboard from './components/Keyboard';
@@ -67,6 +68,8 @@ const App = () => {
     return loaded.guesses;
   });
   const [stats, setStats] = useState(() => loadStats());
+
+  const { t, i18n } = useTranslation();
 
   const solution = todaysSolution();
 
@@ -172,6 +175,9 @@ const App = () => {
     setIsAboutOpen(true);
   }
 
+  const origin = i18n.language.startsWith('en') ? stations[solution.origin].name_english : stations[solution.origin].name_chinese;
+  const destination = i18n.language.startsWith('en') ? stations[solution.destination].name_english : stations[solution.destination].name_chinese;
+
   return (
     <Segment basic className='app-wrapper'>
       <Segment clearing basic className='header-wrapper'>
@@ -179,19 +185,35 @@ const App = () => {
         <Icon className='float-right' name='cog' size='large' link onClick={handleSettingsOpen} />
         <Icon className='float-right' name='chart bar' size='large' link onClick={handleStatsOpen} />
         <Icon className='float-right' name='question circle outline' size='large' link onClick={handleAboutOpen} />
+        {
+          i18n.language.startsWith('zh') &&
+          <a href="#" className='float-right' onClick={() => i18n.changeLanguage("en")}>
+            English
+          </a>
+        }
+        {
+          i18n.language.startsWith('en') &&
+          <a href="#" className='float-right' onClick={() => i18n.changeLanguage("zh")}>
+            中文
+          </a>
+        }
       </Segment>
-      <Header as='h5' textAlign='center' className='hint'>Travel from {stations[solution.origin].name_english} to {stations[solution.destination].name_english} with 2 interchanges.</Header>
+      <Header as='h5' textAlign='center' className='hint'>
+        <Trans i18nKey="hint">
+          Travel from {{origin}} to {{destination}} with 2 interchanges.
+        </Trans>
+      </Header>
       <Segment basic className='game-grid-wrapper'>
         {
           isNotEnoughRoutes &&
           <Message negative floating attached='top'>
-            <Message.Header>Not enough trains for the trip</Message.Header>
+            <Message.Header>{t('error.not_enough')}</Message.Header>
           </Message>
         }
         {
           isGuessInvalid &&
           <Message negative>
-            <Message.Header>Not a valid trip</Message.Header>
+            <Message.Header>{t('error.not_valid')}</Message.Header>
           </Message>
         }
         <GameGrid

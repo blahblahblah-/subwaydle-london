@@ -1,5 +1,6 @@
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Modal, Header, Button, Icon } from 'semantic-ui-react';
+import { useTranslation, Trans } from 'react-i18next';
 
 import Stats from './Stats';
 import TrainLabel from './TrainLabel';
@@ -19,9 +20,10 @@ const SolutionModal = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isModalHidden, setIsModalHidden] = useState(false);
   const modal = useRef(null);
+  const { t, i18n } = useTranslation();
   const trip = todaysTrip();
   const solution = todaysSolution();
-  const title = isGameWon ? "Yay! You completed today's trip!" : "Aww, looks like you got lost on the subway...";
+  const isEnglish = i18n.language.startsWith('en');
   const isIos = /iP(ad|od|hone)/i.test(window.navigator.userAgent) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform));
 
   const handleShareClick = () => {
@@ -60,19 +62,38 @@ const SolutionModal = (props) => {
     }
   }, [open]);
 
+  const stationNamePairs = [
+    [stations[solution.origin], stations[solution.first_transfer_arrival]],
+    [stations[solution.first_transfer_departure], stations[solution.second_transfer_arrival]],
+    [stations[solution.second_transfer_departure], stations[solution.destination]],
+  ].map((pair) => pair.map((s) => isEnglish ? s.name_english : s.name_chinese));
+
   return (
     <Modal closeIcon open={isModalOpen} onClose={handleClose} ref={modal} className='solutions-modal' size='small'>
-      <Modal.Header>{ title }</Modal.Header>
+      {
+        isGameWon && <Modal.Header>{ t('solution.win_message') }</Modal.Header>
+      }
+      {
+        !isGameWon && <Modal.Header>{ t('solution.lose_message') }</Modal.Header>
+      }
       <Modal.Content>
         <Modal.Description>
         <MapFrame />
-          <Header as='h3'>Today's Journey</Header>
-          <TrainLabel id={trip[0]} size='small' /> from { stations[solution.origin].name_english } to { stations[solution.first_transfer_arrival].name_english }<br />
-          <TrainLabel id={trip[1]} size='small' /> from { stations[solution.first_transfer_departure].name_english } to { stations[solution.second_transfer_arrival].name_english }<br />
-          <TrainLabel id={trip[2]} size='small' /> from { stations[solution.second_transfer_departure].name_english } to { stations[solution.destination].name_english }
+          <Header as='h3'>{ t('solution.title') }</Header>
+          {
+            stationNamePairs.map((pair, i) => {
+              const origin = pair[0];
+              const destination = pair[1];
+              return (
+                <React.Fragment key={i}>
+                  <TrainLabel id={trip[i]} size='small' /> <Trans i18nKey="solution.direction">from {{ origin }} to {{ destination }}</Trans><br />
+                </React.Fragment>
+              )
+            })
+          }
           <Stats stats={stats} />
           <Button positive icon labelPosition='right' onClick={handleShareClick} className='share-btn'>
-            { isShareButtonShowCopied ? 'Copied' : 'Share' }
+            { isShareButtonShowCopied ? t('solution.copied') : t('solution.share') }
             <Icon name={isShareButtonShowCopied ? 'check' : 'share alternate'} />
           </Button>
         </Modal.Description>
