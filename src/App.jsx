@@ -45,8 +45,6 @@ const App = () => {
   const [isGuessInvalid, setIsGuessInvalid] = useState(false);
   const [absentRoutes, setAbsentRoutes] = useState([]);
   const [presentRoutes, setPresentRoutes] = useState([]);
-  const [similarRoutes, setSimilarRoutes] = useState([]);
-  const [similarRoutesIndexes, setSimilarRoutesIndexes] = useState({});
   const [correctRoutes, setCorrectRoutes] = useState([]);
   const [guesses, setGuesses] = useState(() => {
     const loaded = loadGameStateFromLocalStorage();
@@ -65,7 +63,7 @@ const App = () => {
       setIsGameLost(true)
       setIsSolutionsOpen(true);
     }
-    updateGuessStatuses(loaded.guesses, setCorrectRoutes, setSimilarRoutes, setPresentRoutes, setAbsentRoutes, setSimilarRoutesIndexes);
+    updateGuessStatuses(loaded.guesses, setCorrectRoutes, setPresentRoutes, setAbsentRoutes);
     return loaded.guesses;
   });
   const [stats, setStats] = useState(() => loadStats());
@@ -78,9 +76,7 @@ const App = () => {
 
   const onChar = (routeId) => {
     if (!isStatsOpen && !isGameWon && currentGuess.length < 3 && guesses.length < ATTEMPTS) {
-      if (!routesWithNoService().includes(routeId)) {
-        setCurrentGuess([...currentGuess, routeId]);
-      }
+      setCurrentGuess([...currentGuess, routeId]);
     }
   }
 
@@ -118,15 +114,11 @@ const App = () => {
     updateGuessStatuses(
       [currentGuess],
       setCorrectRoutes,
-      setSimilarRoutes,
       setPresentRoutes,
       setAbsentRoutes,
-      setSimilarRoutesIndexes,
       correctRoutes,
-      similarRoutes,
       presentRoutes,
       absentRoutes,
-      similarRoutesIndexes,
     );
 
     setGuesses(newGuesses);
@@ -183,12 +175,12 @@ const App = () => {
   return (
     <Segment basic className='app-wrapper'>
       <Segment clearing basic className='header-wrapper'>
-        <Header floated='left'>{isWeekend && "Weekend "}Subwaydle</Header>
+        <Header floated='left'>MTRdle</Header>
         <Icon className='float-right' name='cog' size='large' link onClick={handleSettingsOpen} />
         <Icon className='float-right' name='chart bar' size='large' link onClick={handleStatsOpen} />
         <Icon className='float-right' name='question circle outline' size='large' link onClick={handleAboutOpen} />
       </Segment>
-      <Header as='h5' textAlign='center' className='hint'>Travel from {stations[solution.origin].name} to {stations[solution.destination].name} using 2 transfers.</Header>
+      <Header as='h5' textAlign='center' className='hint'>Travel from {stations[solution.origin].name_english} to {stations[solution.destination].name_english} with 2 interchanges.</Header>
       <Segment basic className='game-grid-wrapper'>
         {
           isNotEnoughRoutes &&
@@ -211,12 +203,10 @@ const App = () => {
       </Segment>
       <Segment basic>
         <Keyboard
-          noService={routesWithNoService()}
           onChar={onChar}
           onDelete={onDelete}
           onEnter={onEnter}
           correctRoutes={correctRoutes}
-          similarRoutes={similarRoutes}
           presentRoutes={presentRoutes}
           absentRoutes={absentRoutes}
         />

@@ -1,5 +1,5 @@
 import { Grid, Icon, Label, Segment } from 'semantic-ui-react';
-import TrainBullet from './TrainBullet';
+import TrainLabel from './TrainLabel';
 import { checkGuessStatuses } from '../utils/answerValidations';
 import { loadSettings } from '../utils/settings';
 
@@ -28,7 +28,7 @@ const CompletedRow = (props) => {
                     }
                   </Label>
                 }
-                <TrainBullet id={routeId} size='medium' />
+                <TrainLabel id={routeId} size='small' />
               </Segment>
             </Grid.Column>
           );

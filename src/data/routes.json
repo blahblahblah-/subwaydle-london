@@ -1,177 +1,62 @@
 {
-  "1":{
-    "id":"1",
-    "name":"1",
-    "color":"#db2828",
-    "text_color":null,
-    "alternate_name":null
+  "KTL":{
+    "id": "KTL",
+    "name_english": "Kwun Tong Line",
+    "name_chinese": "觀塘綫",
+    "color": "#00ab4e"
   },
-  "2":{
-    "id":"2",
-    "name":"2",
-    "color":"#db2828",
-    "text_color":null,
-    "alternate_name":null
+  "TWL":{
+    "id": "TWL",
+    "name_english": "Tsuen Wan Line",
+    "name_chinese": "荃灣綫",
+    "color": "#ed1d24"
   },
-  "3":{
-    "id":"3",
-    "name":"3",
-    "color":"#db2828",
-    "text_color":null,
-    "alternate_name":null
+  "ISL":{
+    "id": "ISL",
+    "name_english": "Island Line",
+    "name_chinese": "港島綫",
+    "color": "#007dc5"
   },
-  "4":{
-    "id":"4",
-    "name":"4",
-    "color":"#21ba45",
-    "text_color":null,
-    "alternate_name":null
+  "TCL":{
+    "id": "TCL",
+    "name_english": "Tung Chung Line",
+    "name_chinese": "東涌綫",
+    "color": "#f7943e"
   },
-  "5":{
-    "id":"5",
-    "name":"5",
-    "color":"#21ba45",
-    "text_color":null,
-    "alternate_name":null
+  "DRL":{
+    "id": "DRL",
+    "name_english": "Disneyland Resort Line",
+    "name_chinese": "迪士尼綫",
+    "color": "#f173ac"
   },
-  "6":{
-    "id":"6",
-    "name":"6",
-    "color":"#21ba45",
-    "text_color":null,
-    "alternate_name":null
+  "AEL":{
+    "id": "AEL",
+    "name_english": "Airport Express",
+    "name_chinese": "機場快綫",
+    "color": "#00888a"
   },
-  "7":{
-    "id":"7",
-    "name":"7",
-    "color":"#a333c8",
-    "text_color":null,
-    "alternate_name":null
+  "TKL":{
+    "id": "TKL",
+    "name_english": "Tseung Kwan O Line",
+    "name_chinese": "將軍澳綫",
+    "color": "#7d499d"
   },
-  "A":{
-    "id":"A",
-    "name":"A",
-    "color":"#2185d0",
-    "text_color":null,
-    "alternate_name":null
+  "EAL":{
+    "id": "EAL",
+    "name_english": "East Rail Line",
+    "name_chinese": "東鐵綫",
+    "color": "#53b7e8"
   },
-  "B":{
-    "id":"B",
-    "name":"B",
-    "color":"#f2711c",
-    "text_color":null,
-    "alternate_name":null
+  "TML":{
+    "id": "TML",
+    "name_english": "Tuen Ma Line",
+    "name_chinese": "屯馬綫",
+    "color": "#923011"
   },
-  "C":{
-    "id":"C",
-    "name":"C",
-    "color":"#2185d0",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "D":{
-    "id":"D",
-    "name":"D",
-    "color":"#f2711c",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "E":{
-    "id":"E",
-    "name":"E",
-    "color":"#2185d0",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "F":{
-    "id":"F",
-    "name":"F",
-    "color":"#f2711c",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "G":{
-    "id":"G",
-    "name":"G",
-    "color":"#b5cc18",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "J":{
-    "id":"J",
-    "name":"J",
-    "color":"#a5673f",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "L":{
-    "id":"L",
-    "name":"L",
-    "color":"#A0A0A0",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "M":{
-    "id":"M",
-    "name":"M",
-    "color":"#f2711c",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "N":{
-    "id":"N",
-    "name":"N",
-    "color":"#fbbd08",
-    "text_color":"#000000",
-    "alternate_name":null
-  },
-  "Q":{
-    "id":"Q",
-    "name":"Q",
-    "color":"#fbbd08",
-    "text_color":"#000000",
-    "alternate_name":null
-  },
-  "R":{
-    "id":"R",
-    "name":"R",
-    "color":"#fbbd08",
-    "text_color":"#000000",
-    "alternate_name":null
-  },
-  "GS":{
-    "id":"GS",
-    "name":"S",
-    "color":"#767676",
-    "text_color":null,
-    "alternate_name":"42 St Shuttle"
-  },
-  "FS":{
-    "id":"FS",
-    "name":"S",
-    "color":"#767676",
-    "text_color":null,
-    "alternate_name":"Franklin Avenue Shuttle"
-  },
-  "H":{
-    "id":"H",
-    "name":"S",
-    "color":"#767676",
-    "text_color":null,
-    "alternate_name":"Rockaway Park Shuttle"
-  },
-  "SI":{
-    "id":"SI",
-    "name":"SIR",
-    "color":"#2185d0",
-    "text_color":null,
-    "alternate_name":null
-  },
-  "W":{
-    "id":"W",
-    "name":"W",
-    "color":"#fbbd08",
-    "text_color":"#000000",
-    "alternate_name":null
+  "SIL":{
+    "id": "SIL",
+    "name_english": "South Island Line",
+    "name_chinese": "南港島綫",
+    "color": "#bac429"
   }
 }

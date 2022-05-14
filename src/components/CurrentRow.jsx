@@ -1,5 +1,5 @@
 import { Grid, Segment } from 'semantic-ui-react';
-import TrainBullet from './TrainBullet';
+import TrainLabel from './TrainLabel';
 
 const CurrentRow = (props) => {
   const { currentGuess } = props;
@@ -12,7 +12,7 @@ const CurrentRow = (props) => {
           return (
             <Grid.Column key={`guess-${index}`}>
               <Segment placeholder>
-                <TrainBullet id={routeId} size='medium' />
+                <TrainLabel id={routeId} size='medium' />
               </Segment>
             </Grid.Column>
           );

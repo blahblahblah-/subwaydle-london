@@ -1,0 +1,1109 @@
+{
+  "EAL-TML-TWL": {
+    "origin": "UNI",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "ETS",
+    "second_transfer_departure": "TST",
+    "destination": "JOR",
+    "travel_distance_factor": 1.174153772009766
+  },
+  "EAL-TML-TCL": {
+    "origin": "TWO",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "HOK",
+    "travel_distance_factor": 1.4207616104475547
+  },
+  "EAL-TML-KTL": {
+    "origin": "TWO",
+    "first_transfer_arrival": "TAW",
+    "first_transfer_departure": "TAW",
+    "second_transfer_arrival": "DIH",
+    "second_transfer_departure": "DIH",
+    "destination": "KOB",
+    "travel_distance_factor": 1.0180317959748815
+  },
+  "EAL-KTL-TML": {
+    "origin": "TWO",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "DIH",
+    "second_transfer_departure": "DIH",
+    "destination": "TKW",
+    "travel_distance_factor": 1.2138185958872687
+  },
+  "EAL-KTL-TKL": {
+    "origin": "LMC",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "TIK",
+    "second_transfer_departure": "TIK",
+    "destination": "TKO",
+    "travel_distance_factor": 1.0597068589775664
+  },
+  "EAL-KTL-TWL": {
+    "origin": "FOT",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "MOK",
+    "second_transfer_departure": "MOK",
+    "destination": "TST",
+    "travel_distance_factor": 1.0175354683988813
+  },
+  "ISL-TKL-KTL": {
+    "origin": "KET",
+    "first_transfer_arrival": "QUB",
+    "first_transfer_departure": "QUB",
+    "second_transfer_arrival": "YAT",
+    "second_transfer_departure": "YAT",
+    "destination": "NTK",
+    "travel_distance_factor": 1.3969274112882624
+  },
+  "ISL-TKL-TKL": {
+    "origin": "HKU",
+    "first_transfer_arrival": "QUB",
+    "first_transfer_departure": "QUB",
+    "second_transfer_arrival": "TKO",
+    "second_transfer_departure": "TKO",
+    "destination": "LHP",
+    "travel_distance_factor": 1.0768575712793715
+  },
+  "ISL-AEL-TCL": {
+    "origin": "SKW",
+    "first_transfer_arrival": "CEN",
+    "first_transfer_departure": "HOK",
+    "second_transfer_arrival": "TSY",
+    "second_transfer_departure": "TSY",
+    "destination": "SUN",
+    "travel_distance_factor": 1.929916030650372
+  },
+  "ISL-TCL-TML": {
+    "origin": "HFC",
+    "first_transfer_arrival": "CEN",
+    "first_transfer_departure": "HOK",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "SIH",
+    "travel_distance_factor": 1.5669846044334097
+  },
+  "ISL-TCL-TWL": {
+    "origin": "SKW",
+    "first_transfer_arrival": "CEN",
+    "first_transfer_departure": "HOK",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "MEF",
+    "travel_distance_factor": 2.8078992769532176
+  },
+  "ISL-TCL-DRL": {
+    "origin": "TAK",
+    "first_transfer_arrival": "CEN",
+    "first_transfer_departure": "HOK",
+    "second_transfer_arrival": "SUN",
+    "second_transfer_departure": "SUN",
+    "destination": "DIS",
+    "travel_distance_factor": 2.207211286894083
+  },
+  "TWL-TML-TCL": {
+    "origin": "PRE",
+    "first_transfer_arrival": "TST",
+    "first_transfer_departure": "ETS",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "TUC",
+    "travel_distance_factor": 1.256918441993852
+  },
+  "TWL-TML-EAL": {
+    "origin": "YMT",
+    "first_transfer_arrival": "MEF",
+    "first_transfer_departure": "MEF",
+    "second_transfer_arrival": "TAW",
+    "second_transfer_departure": "TAW",
+    "destination": "TWO",
+    "travel_distance_factor": 1.2342003651046183
+  },
+  "TWL-TML-KTL": {
+    "origin": "TWH",
+    "first_transfer_arrival": "TST",
+    "first_transfer_departure": "ETS",
+    "second_transfer_arrival": "DIH",
+    "second_transfer_departure": "DIH",
+    "destination": "KWT",
+    "travel_distance_factor": 1.5893073209883255
+  },
+  "TWL-KTL-TML": {
+    "origin": "CEN",
+    "first_transfer_arrival": "YMT",
+    "first_transfer_departure": "YMT",
+    "second_transfer_arrival": "HOM",
+    "second_transfer_departure": "HOM",
+    "destination": "TKW",
+    "travel_distance_factor": 1.2058930158083605
+  },
+  "TWL-KTL-EAL": {
+    "origin": "TSW",
+    "first_transfer_arrival": "PRE",
+    "first_transfer_departure": "PRE",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "EXC",
+    "travel_distance_factor": 1.2935085565299453
+  },
+  "TWL-KTL-TKL": {
+    "origin": "LCK",
+    "first_transfer_arrival": "PRE",
+    "first_transfer_departure": "PRE",
+    "second_transfer_arrival": "TIK",
+    "second_transfer_departure": "TIK",
+    "destination": "HAH",
+    "travel_distance_factor": 1.0847959433231622
+  },
+  "TWL-TCL-AEL": {
+    "origin": "KWH",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "TSY",
+    "second_transfer_departure": "TSY",
+    "destination": "AWE",
+    "travel_distance_factor": 1.0721818827636036
+  },
+  "TWL-TCL-DRL": {
+    "origin": "PRE",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "SUN",
+    "second_transfer_departure": "SUN",
+    "destination": "DIS",
+    "travel_distance_factor": 1.3944137483089432
+  },
+  "TWL-TCL-TML": {
+    "origin": "TSW",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "ETS",
+    "travel_distance_factor": 1.0246228957840544
+  },
+  "TWL-TCL-ISL": {
+    "origin": "CSW",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "HOK",
+    "second_transfer_departure": "CEN",
+    "destination": "SKW",
+    "travel_distance_factor": 3.475932108956877
+  },
+  "TWL-AEL-TCL": {
+    "origin": "ADM",
+    "first_transfer_arrival": "CEN",
+    "first_transfer_departure": "HOK",
+    "second_transfer_arrival": "TSY",
+    "second_transfer_departure": "TSY",
+    "destination": "TUC",
+    "travel_distance_factor": 1.9512647260836191
+  },
+  "TWL-TCL-TWL": {
+    "origin": "MEF",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "HOK",
+    "second_transfer_departure": "CEN",
+    "destination": "TST",
+    "travel_distance_factor": 100
+  },
+  "AEL-TCL-DRL": {
+    "origin": "HOK",
+    "first_transfer_arrival": "TSY",
+    "first_transfer_departure": "TSY",
+    "second_transfer_arrival": "SUN",
+    "second_transfer_departure": "SUN",
+    "destination": "DIS",
+    "travel_distance_factor": 1.3628208079002821
+  },
+  "AEL-TCL-TML": {
+    "origin": "AWE",
+    "first_transfer_arrival": "KOW",
+    "first_transfer_departure": "KOW",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "SUW",
+    "travel_distance_factor": 1.133172822275036
+  },
+  "AEL-TCL-TWL": {
+    "origin": "AWE",
+    "first_transfer_arrival": "KOW",
+    "first_transfer_departure": "KOW",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "MOK",
+    "travel_distance_factor": 1.463769976600382
+  },
+  "AEL-ISL-EAL": {
+    "origin": "AWE",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "HUH",
+    "travel_distance_factor": 1.756244869165534
+  },
+  "AEL-ISL-SIL": {
+    "origin": "AWE",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "OCP",
+    "travel_distance_factor": 1.7321898965370328
+  },
+  "AEL-ISL-TKL": {
+    "origin": "AWE",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "QUB",
+    "second_transfer_departure": "QUB",
+    "destination": "TIK",
+    "travel_distance_factor": 1.5496058156125068
+  },
+  "AEL-TWL-EAL": {
+    "origin": "AIR",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "MKK",
+    "travel_distance_factor": 1.8737869180702735
+  },
+  "AEL-TWL-SIL": {
+    "origin": "AIR",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "OCP",
+    "travel_distance_factor": 1.725937168472275
+  },
+  "AEL-TWL-TML": {
+    "origin": "AWE",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "TST",
+    "second_transfer_departure": "ETS",
+    "destination": "DIH",
+    "travel_distance_factor": 1.7829951801806543
+  },
+  "AEL-TWL-KTL": {
+    "origin": "AIR",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "MOK",
+    "second_transfer_departure": "MOK",
+    "destination": "LAT",
+    "travel_distance_factor": 1.6660196027682002
+  },
+  "AEL-TWL-TCL": {
+    "origin": "AIR",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "NAC",
+    "travel_distance_factor": 2.3109191912290528
+  },
+  "TML-TCL-TWL": {
+    "origin": "HUH",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "KWH",
+    "travel_distance_factor": 1.1038797820478037
+  },
+  "TML-TCL-AEL": {
+    "origin": "TKW",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "KOW",
+    "second_transfer_departure": "KOW",
+    "destination": "AIR",
+    "travel_distance_factor": 1.1360915090591823
+  },
+  "TML-TCL-DRL": {
+    "origin": "KAT",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "SUN",
+    "second_transfer_departure": "SUN",
+    "destination": "DIS",
+    "travel_distance_factor": 1.2563433532834927
+  },
+  "TML-TCL-ISL": {
+    "origin": "TUM",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "HOK",
+    "second_transfer_departure": "CEN",
+    "destination": "SKW",
+    "travel_distance_factor": 1.5982824884999565
+  },
+  "TML-TWL-TCL": {
+    "origin": "AUS",
+    "first_transfer_arrival": "MEF",
+    "first_transfer_departure": "MEF",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "SUN",
+    "travel_distance_factor": 1.1459604104174874
+  },
+  "TML-TWL-KTL": {
+    "origin": "YUL",
+    "first_transfer_arrival": "MEF",
+    "first_transfer_departure": "MEF",
+    "second_transfer_arrival": "PRE",
+    "second_transfer_departure": "PRE",
+    "destination": "LOF",
+    "travel_distance_factor": 1.1122550873524903
+  },
+  "TML-TWL-EAL": {
+    "origin": "TUM",
+    "first_transfer_arrival": "ETS",
+    "first_transfer_departure": "TST",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "EXC",
+    "travel_distance_factor": 1.1229717412673748
+  },
+  "TML-TWL-ISL": {
+    "origin": "KSR",
+    "first_transfer_arrival": "MEF",
+    "first_transfer_departure": "MEF",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "SWH",
+    "travel_distance_factor": 1.1135752412821975
+  },
+  "TML-TWL-SIL": {
+    "origin": "STW",
+    "first_transfer_arrival": "ETS",
+    "first_transfer_departure": "TST",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "WCH",
+    "travel_distance_factor": 1.0482159917058853
+  },
+  "TML-TWL-AEL": {
+    "origin": "DIH",
+    "first_transfer_arrival": "ETS",
+    "first_transfer_departure": "TST",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AIR",
+    "travel_distance_factor": 1.7577170470674253
+  },
+  "TML-TWL-TML": {
+    "origin": "AUS",
+    "first_transfer_arrival": "ETS",
+    "first_transfer_departure": "TST",
+    "second_transfer_arrival": "MEF",
+    "second_transfer_departure": "MEF",
+    "destination": "YUL",
+    "travel_distance_factor": 100
+  },
+  "TML-EAL-KTL": {
+    "origin": "YUL",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "MOK",
+    "travel_distance_factor": 1.4105062849689043
+  },
+  "TML-EAL-ISL": {
+    "origin": "KSR",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "SWH",
+    "travel_distance_factor": 1.1944722240177479
+  },
+  "TML-EAL-SIL": {
+    "origin": "STW",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "LET",
+    "travel_distance_factor": 1.0131048447342392
+  },
+  "TML-EAL-TWL": {
+    "origin": "DIH",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "CEN",
+    "travel_distance_factor": 1.093173439744636
+  },
+  "TML-KTL-TWL": {
+    "origin": "CKT",
+    "first_transfer_arrival": "HOM",
+    "first_transfer_departure": "HOM",
+    "second_transfer_arrival": "YMT",
+    "second_transfer_departure": "YMT",
+    "destination": "JOR",
+    "travel_distance_factor": 1.2015422516732996
+  },
+  "TML-KTL-EAL": {
+    "origin": "WKS",
+    "first_transfer_arrival": "DIH",
+    "first_transfer_departure": "DIH",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "MKK",
+    "travel_distance_factor": 1.0861425996622158
+  },
+  "TML-KTL-TKL": {
+    "origin": "LOP",
+    "first_transfer_arrival": "DIH",
+    "first_transfer_departure": "DIH",
+    "second_transfer_arrival": "TIK",
+    "second_transfer_departure": "TIK",
+    "destination": "TKO",
+    "travel_distance_factor": 1.0150238707733334
+  },
+  "ISL-EAL-TML": {
+    "origin": "CEN",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "HUH",
+    "second_transfer_departure": "HUH",
+    "destination": "TKW",
+    "travel_distance_factor": 1.1453655786940473
+  },
+  "ISL-EAL-KTL": {
+    "origin": "HKU",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "KOB",
+    "travel_distance_factor": 1.5031660267527553
+  },
+  "ISL-TWL-TML": {
+    "origin": "TAK",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "MEF",
+    "second_transfer_departure": "MEF",
+    "destination": "TIS",
+    "travel_distance_factor": 1.0878608516891966
+  },
+  "ISL-TWL-KTL": {
+    "origin": "WAC",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "MOK",
+    "second_transfer_departure": "MOK",
+    "destination": "PRE",
+    "travel_distance_factor": 1.134867979019261
+  },
+  "ISL-TWL-TCL": {
+    "origin": "CHW",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "SUN",
+    "travel_distance_factor": 1.1669757460157364
+  },
+  "TWL-EAL-TML": {
+    "origin": "CEN",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "TAW",
+    "second_transfer_departure": "TAW",
+    "destination": "HEO",
+    "travel_distance_factor": 1.101914305709363
+  },
+  "TWL-EAL-KTL": {
+    "origin": "CEN",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "DIH",
+    "travel_distance_factor": 1.273762423925241
+  },
+  "TWL-TML-TWL": {
+    "origin": "LCK",
+    "first_transfer_arrival": "MEF",
+    "first_transfer_departure": "MEF",
+    "second_transfer_arrival": "ETS",
+    "second_transfer_departure": "TST",
+    "destination": "CEN",
+    "travel_distance_factor": 1.5867688590513318
+  },
+  "TWL-ISL-TKL": {
+    "origin": "LAK",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "QUB",
+    "second_transfer_departure": "QUB",
+    "destination": "TKO",
+    "travel_distance_factor": 1.3127446534378573
+  },
+  "KTL-TKL-ISL": {
+    "origin": "PRE",
+    "first_transfer_arrival": "YAT",
+    "first_transfer_departure": "YAT",
+    "second_transfer_arrival": "QUB",
+    "second_transfer_departure": "QUB",
+    "destination": "CHW",
+    "travel_distance_factor": 1.5098519179241954
+  },
+  "KTL-TML-EAL": {
+    "origin": "YAT",
+    "first_transfer_arrival": "DIH",
+    "first_transfer_departure": "DIH",
+    "second_transfer_arrival": "TAW",
+    "second_transfer_departure": "TAW",
+    "destination": "SHT",
+    "travel_distance_factor": 1.093258453850829
+  },
+  "KTL-EAL-TML": {
+    "origin": "SKM",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "TAW",
+    "second_transfer_departure": "TAW",
+    "destination": "MOS",
+    "travel_distance_factor": 1.0567382512392594
+  },
+  "KTL-EAL-ISL": {
+    "origin": "CHH",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "SYP",
+    "travel_distance_factor": 1.4121494830412256
+  },
+  "KTL-EAL-SIL": {
+    "origin": "CHH",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "LET",
+    "travel_distance_factor": 1.2151900659837807
+  },
+  "KTL-EAL-TWL": {
+    "origin": "SKM",
+    "first_transfer_arrival": "KOT",
+    "first_transfer_departure": "KOT",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "CEN",
+    "travel_distance_factor": 1.4624772184497468
+  },
+  "KTL-TWL-TML": {
+    "origin": "WHA",
+    "first_transfer_arrival": "MOK",
+    "first_transfer_departure": "MOK",
+    "second_transfer_arrival": "MEF",
+    "second_transfer_departure": "MEF",
+    "destination": "TUM",
+    "travel_distance_factor": 1.0059269744498491
+  },
+  "KTL-TWL-TCL": {
+    "origin": "HOM",
+    "first_transfer_arrival": "MOK",
+    "first_transfer_departure": "MOK",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "TUC",
+    "travel_distance_factor": 1.0979441418097022
+  },
+  "KTL-TWL-EAL": {
+    "origin": "LOF",
+    "first_transfer_arrival": "MOK",
+    "first_transfer_departure": "MOK",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "EXC",
+    "travel_distance_factor": 1.327625235588504
+  },
+  "KTL-TWL-ISL": {
+    "origin": "TIK",
+    "first_transfer_arrival": "MOK",
+    "first_transfer_departure": "MOK",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "CEN",
+    "destination": "KET",
+    "travel_distance_factor": 1.2304833320222486
+  },
+  "KTL-TWL-SIL": {
+    "origin": "SKM",
+    "first_transfer_arrival": "MOK",
+    "first_transfer_departure": "MOK",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "WCH",
+    "travel_distance_factor": 1.0050977380168984
+  },
+  "KTL-TWL-AEL": {
+    "origin": "CHH",
+    "first_transfer_arrival": "MOK",
+    "first_transfer_departure": "MOK",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AIR",
+    "travel_distance_factor": 1.7291109334604997
+  },
+  "KTL-TML-TWL": {
+    "origin": "KWT",
+    "first_transfer_arrival": "HOM",
+    "first_transfer_departure": "HOM",
+    "second_transfer_arrival": "ETS",
+    "second_transfer_departure": "TST",
+    "destination": "JOR",
+    "travel_distance_factor": 1.3098453666155327
+  },
+  "KTL-TML-TCL": {
+    "origin": "TIK",
+    "first_transfer_arrival": "HOM",
+    "first_transfer_departure": "HOM",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "TSY",
+    "travel_distance_factor": 1.036173015189098
+  },
+  "TML-EAL-TML": {
+    "origin": "HOM",
+    "first_transfer_arrival": "HUH",
+    "first_transfer_departure": "HUH",
+    "second_transfer_arrival": "TAW",
+    "second_transfer_departure": "TAW",
+    "destination": "STW",
+    "travel_distance_factor": 1.345375016180277
+  },
+  "DRL-TCL-AEL": {
+    "origin": "DIS",
+    "first_transfer_arrival": "SUN",
+    "first_transfer_departure": "SUN",
+    "second_transfer_arrival": "TSY",
+    "second_transfer_departure": "TSY",
+    "destination": "AIR",
+    "travel_distance_factor": 2.621366922262908
+  },
+  "DRL-TCL-TWL": {
+    "origin": "DIS",
+    "first_transfer_arrival": "SUN",
+    "first_transfer_departure": "SUN",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "CSW",
+    "travel_distance_factor": 1.378625186057779
+  },
+  "DRL-TCL-TML": {
+    "origin": "DIS",
+    "first_transfer_arrival": "SUN",
+    "first_transfer_departure": "SUN",
+    "second_transfer_arrival": "NAC",
+    "second_transfer_departure": "NAC",
+    "destination": "TSH",
+    "travel_distance_factor": 1.2806447478543157
+  },
+  "DRL-TCL-ISL": {
+    "origin": "DIS",
+    "first_transfer_arrival": "SUN",
+    "first_transfer_departure": "SUN",
+    "second_transfer_arrival": "HOK",
+    "second_transfer_departure": "CEN",
+    "destination": "TAK",
+    "travel_distance_factor": 2.2072112868940836
+  },
+  "EAL-ISL-TKL": {
+    "origin": "SHS",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "QUB",
+    "second_transfer_departure": "QUB",
+    "destination": "TKO",
+    "travel_distance_factor": 1.3888859181144257
+  },
+  "EAL-ISL-AEL": {
+    "origin": "EXC",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AWE",
+    "travel_distance_factor": 1.6952930278174918
+  },
+  "EAL-ISL-TCL": {
+    "origin": "EXC",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "TSY",
+    "travel_distance_factor": 2.478438650728456
+  },
+  "EAL-TWL-TML": {
+    "origin": "EXC",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "MEF",
+    "second_transfer_departure": "MEF",
+    "destination": "KSR",
+    "travel_distance_factor": 1.0464509132816882
+  },
+  "EAL-TWL-KTL": {
+    "origin": "EXC",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "MOK",
+    "second_transfer_departure": "MOK",
+    "destination": "WTS",
+    "travel_distance_factor": 1.3320648413543625
+  },
+  "EAL-TWL-TCL": {
+    "origin": "HUH",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "TUC",
+    "travel_distance_factor": 1.2924069282203212
+  },
+  "EAL-TWL-AEL": {
+    "origin": "EXC",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AWE",
+    "travel_distance_factor": 1.6952930278174918
+  },
+  "TKL-KTL-TML": {
+    "origin": "LHP",
+    "first_transfer_arrival": "TIK",
+    "first_transfer_departure": "TIK",
+    "second_transfer_arrival": "DIH",
+    "second_transfer_departure": "DIH",
+    "destination": "CIO",
+    "travel_distance_factor": 1.1250366812245307
+  },
+  "TKL-KTL-EAL": {
+    "origin": "LHP",
+    "first_transfer_arrival": "TIK",
+    "first_transfer_departure": "TIK",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "SHS",
+    "travel_distance_factor": 1.0912185288940075
+  },
+  "TKL-KTL-TWL": {
+    "origin": "HAH",
+    "first_transfer_arrival": "YAT",
+    "first_transfer_departure": "YAT",
+    "second_transfer_arrival": "PRE",
+    "second_transfer_departure": "PRE",
+    "destination": "LAK",
+    "travel_distance_factor": 1.1029888886783694
+  },
+  "TKL-ISL-EAL": {
+    "origin": "YAT",
+    "first_transfer_arrival": "NOP",
+    "first_transfer_departure": "NOP",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "TAP",
+    "travel_distance_factor": 1.4815489402231257
+  },
+  "TKL-ISL-SIL": {
+    "origin": "TKO",
+    "first_transfer_arrival": "NOP",
+    "first_transfer_departure": "NOP",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "SOH",
+    "travel_distance_factor": 1.08587943583649
+  },
+  "TKL-ISL-TWL": {
+    "origin": "TKO",
+    "first_transfer_arrival": "NOP",
+    "first_transfer_departure": "NOP",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "TWH",
+    "travel_distance_factor": 1.3699117378615004
+  },
+  "TKL-ISL-AEL": {
+    "origin": "HAH",
+    "first_transfer_arrival": "NOP",
+    "first_transfer_departure": "NOP",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AIR",
+    "travel_distance_factor": 1.5269196014348945
+  },
+  "TKL-ISL-TCL": {
+    "origin": "YAT",
+    "first_transfer_arrival": "NOP",
+    "first_transfer_departure": "NOP",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "TUC",
+    "travel_distance_factor": 1.5543498470725345
+  },
+  "TCL-TML-TWL": {
+    "origin": "TUC",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "ETS",
+    "second_transfer_departure": "TST",
+    "destination": "LCK",
+    "travel_distance_factor": 1.4491343730315596
+  },
+  "TCL-TML-EAL": {
+    "origin": "SUN",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "HUH",
+    "second_transfer_departure": "HUH",
+    "destination": "EXC",
+    "travel_distance_factor": 1.1921132209351324
+  },
+  "TCL-TML-KTL": {
+    "origin": "LAK",
+    "first_transfer_arrival": "NAC",
+    "first_transfer_departure": "NAC",
+    "second_transfer_arrival": "DIH",
+    "second_transfer_departure": "DIH",
+    "destination": "LAT",
+    "travel_distance_factor": 1.1589318022826487
+  },
+  "TCL-TWL-TML": {
+    "origin": "TUC",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "TST",
+    "second_transfer_departure": "ETS",
+    "destination": "SHM",
+    "travel_distance_factor": 1.30906176549973
+  },
+  "TCL-TWL-KTL": {
+    "origin": "TSY",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "PRE",
+    "second_transfer_departure": "PRE",
+    "destination": "CHH",
+    "travel_distance_factor": 1.0814807016973251
+  },
+  "TCL-TWL-EAL": {
+    "origin": "TUC",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "HUH",
+    "travel_distance_factor": 1.2924069282203212
+  },
+  "TCL-TWL-ISL": {
+    "origin": "SUN",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "SWH",
+    "travel_distance_factor": 1.1999541754946657
+  },
+  "TCL-TWL-SIL": {
+    "origin": "TSY",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "LET",
+    "travel_distance_factor": 1.0875770604613872
+  },
+  "TCL-ISL-EAL": {
+    "origin": "KOW",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "SHS",
+    "travel_distance_factor": 1.9552348230186052
+  },
+  "TCL-ISL-SIL": {
+    "origin": "SUN",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "ADM",
+    "second_transfer_departure": "ADM",
+    "destination": "OCP",
+    "travel_distance_factor": 2.0116187778729
+  },
+  "TCL-ISL-TKL": {
+    "origin": "TUC",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "QUB",
+    "second_transfer_departure": "QUB",
+    "destination": "POA",
+    "travel_distance_factor": 1.5436002795698849
+  },
+  "TCL-TWL-TCL": {
+    "origin": "KOW",
+    "first_transfer_arrival": "HOK",
+    "first_transfer_departure": "CEN",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "TUC",
+    "travel_distance_factor": 100
+  },
+  "KTL-TML-KTL": {
+    "origin": "WTS",
+    "first_transfer_arrival": "DIH",
+    "first_transfer_departure": "DIH",
+    "second_transfer_arrival": "HOM",
+    "second_transfer_departure": "HOM",
+    "destination": "WHA",
+    "travel_distance_factor": 1.3590387404073285
+  },
+  "TCL-AEL-TCL": {
+    "origin": "OLY",
+    "first_transfer_arrival": "KOW",
+    "first_transfer_departure": "KOW",
+    "second_transfer_arrival": "TSY",
+    "second_transfer_departure": "TSY",
+    "destination": "TUC",
+    "travel_distance_factor": 1.2452905774776917
+  },
+  "TCL-AEL-ISL": {
+    "origin": "LAK",
+    "first_transfer_arrival": "TSY",
+    "first_transfer_departure": "TSY",
+    "second_transfer_arrival": "HOK",
+    "second_transfer_departure": "CEN",
+    "destination": "ADM",
+    "travel_distance_factor": 3.262183905797553
+  },
+  "TCL-AEL-TWL": {
+    "origin": "NAC",
+    "first_transfer_arrival": "TSY",
+    "first_transfer_departure": "TSY",
+    "second_transfer_arrival": "HOK",
+    "second_transfer_departure": "CEN",
+    "destination": "ADM",
+    "travel_distance_factor": 5.931277319847017
+  },
+  "SIL-EAL-TML": {
+    "origin": "WCH",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "TAW",
+    "second_transfer_departure": "TAW",
+    "destination": "TSH",
+    "travel_distance_factor": 1.070749283627411
+  },
+  "SIL-EAL-KTL": {
+    "origin": "OCP",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "KOT",
+    "second_transfer_departure": "KOT",
+    "destination": "LOF",
+    "travel_distance_factor": 1.1208363855274819
+  },
+  "SIL-ISL-TKL": {
+    "origin": "SOH",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "QUB",
+    "second_transfer_departure": "QUB",
+    "destination": "YAT",
+    "travel_distance_factor": 1.1062716180817882
+  },
+  "SIL-ISL-AEL": {
+    "origin": "WCH",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AIR",
+    "travel_distance_factor": 1.7642355099618914
+  },
+  "SIL-ISL-TCL": {
+    "origin": "WCH",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "TUC",
+    "travel_distance_factor": 1.8168444474468033
+  },
+  "SIL-TWL-TML": {
+    "origin": "LET",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "TST",
+    "second_transfer_departure": "ETS",
+    "destination": "TAW",
+    "travel_distance_factor": 1.0437168763663238
+  },
+  "SIL-TWL-KTL": {
+    "origin": "SOH",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "MOK",
+    "second_transfer_departure": "MOK",
+    "destination": "LOF",
+    "travel_distance_factor": 1.0276536083981203
+  },
+  "SIL-TWL-TCL": {
+    "origin": "LET",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "LAK",
+    "second_transfer_departure": "LAK",
+    "destination": "TUC",
+    "travel_distance_factor": 1.4513147484328681
+  },
+  "SIL-TWL-AEL": {
+    "origin": "LET",
+    "first_transfer_arrival": "ADM",
+    "first_transfer_departure": "ADM",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "AIR",
+    "travel_distance_factor": 1.8640236900526237
+  },
+  "TKL-TKL-ISL": {
+    "origin": "LHP",
+    "first_transfer_arrival": "TIK",
+    "first_transfer_departure": "TIK",
+    "second_transfer_arrival": "NOP",
+    "second_transfer_departure": "NOP",
+    "destination": "CEN",
+    "travel_distance_factor": 1.0391216546011608
+  },
+  "TCL-TWL-AEL": {
+    "origin": "NAC",
+    "first_transfer_arrival": "LAK",
+    "first_transfer_departure": "LAK",
+    "second_transfer_arrival": "CEN",
+    "second_transfer_departure": "HOK",
+    "destination": "KOW",
+    "travel_distance_factor": 100
+  }
+}

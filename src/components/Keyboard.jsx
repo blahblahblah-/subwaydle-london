@@ -6,7 +6,7 @@ import routes from '../data/routes.json';
 import './Keyboard.scss';
 
 const Keyboard = (props) => {
-  const { noService, onChar, onDelete, onEnter, correctRoutes, similarRoutes, presentRoutes, absentRoutes } = props;
+  const { onChar, onDelete, onEnter, correctRoutes, presentRoutes, absentRoutes } = props;
 
   useEffect(() => {
     const listener = (e) => {
@@ -43,18 +43,16 @@ const Keyboard = (props) => {
 
 
   return (
-    <Grid centered columns={7} className='keyboard'>
+    <Grid centered columns={3} className='keyboard'>
       <Grid.Row>
         {
-          ["1", "2", "3", "4", "5", "6", "7"].map((routeId) => {
+          ["KTL", "TWL", "ISL"].map((routeId) => {
             return (
               <Key
                 id={routeId}
                 key={routeId}
                 onClick={onChar}
-                disabled={noService.includes(routeId)}
                 isCorrect={correctRoutes.includes(routeId)}
-                isSimilar={similarRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
                 isAbsent={absentRoutes.includes(routeId)}
               />
@@ -64,15 +62,13 @@ const Keyboard = (props) => {
       </Grid.Row>
       <Grid.Row>
         {
-          ["A", "B", "C", "D", "E", "F", "G"].map((routeId) => {
+          ["TCL", "DRL", "AEL"].map((routeId) => {
             return (
               <Key
                 id={routeId}
                 key={routeId}
                 onClick={onChar}
-                disabled={noService.includes(routeId)}
                 isCorrect={correctRoutes.includes(routeId)}
-                isSimilar={similarRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
                 isAbsent={absentRoutes.includes(routeId)}
               />
@@ -80,17 +76,15 @@ const Keyboard = (props) => {
           })
         }
         </Grid.Row>
-        <Grid.Row>
+        <Grid.Row columns={2}>
         {
-          ["J", "L", "M", "N", "Q", "R", "W"].map((routeId) => {
+          ["TKL", "SIL"].map((routeId) => {
             return (
               <Key
                 id={routeId}
                 key={routeId}
                 onClick={onChar}
-                disabled={noService.includes(routeId)}
                 isCorrect={correctRoutes.includes(routeId)}
-                isSimilar={similarRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
                 isAbsent={absentRoutes.includes(routeId)}
               />
@@ -98,22 +92,20 @@ const Keyboard = (props) => {
           })
         }
         </Grid.Row>
-        <Grid.Row columns={6}>
+        <Grid.Row columns={4}>
           <Grid.Column className='key' stretched>
             <Button onClick={handleEnter}>
               Enter
             </Button>
           </Grid.Column>
         {
-          ["SI", "GS", "FS", "H"].map((routeId) => {
+          ["EAL", "TML"].map((routeId) => {
             return (
               <Key
                 id={routeId}
                 key={routeId}
                 onClick={onChar}
-                disabled={noService.includes(routeId)}
                 isCorrect={correctRoutes.includes(routeId)}
-                isSimilar={similarRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
                 isAbsent={absentRoutes.includes(routeId)}
               />

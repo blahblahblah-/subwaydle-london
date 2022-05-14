@@ -11,13 +11,11 @@ import './MapFrame.scss';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
-const MANHATTAN_TILT = 29;
-
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(-73.98119);
-  const [lat, setLat] = useState(40.75855);
+  const [lng, setLng] = useState(114.1694);
+  const [lat, setLat] = useState(22.2893);
   const [zoom, setZoom] = useState(12);
   const solution = todaysSolution();
 
@@ -38,7 +36,7 @@ const MapFrame = (props) => {
           "type": "Feature",
           "properties": {
             "id": stopId,
-            "name": station.name,
+            "name": `${station.name_chinese}\n${station.name_english}`,
           },
           "geometry": {
             "type": "Point",
@@ -52,16 +50,23 @@ const MapFrame = (props) => {
   const lineGeoJson = (line) => {
     const route = routes[line.route];
     let shape;
-    const beginCoord = [stations[line.begin].longitude, stations[line.begin].latitude];
-    const endCoord = [stations[line.end].longitude, stations[line.end].latitude];
+    const beginCoord = [stations[line.begin].stops[line.route].longitude, stations[line.begin].stops[line.route].latitude];
+    const endCoord = [stations[line.end].stops[line.route].longitude, stations[line.end].stops[line.route].latitude];
     let coordinates = [];
 
-    if (line.route === 'A') {
-      const lineA1 = shapes['A1'];
-      if (lineA1.some((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]) && lineA1.some((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1])) {
-        shape = shapes['A1'];
+    if (line.route === 'EAL') {
+      const lineOne = shapes['EAL1'];
+      if (lineOne.some((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]) && lineOne.some((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1])) {
+        shape = shapes['EAL1'];
       } else {
-        shape = shapes['A2'];
+        shape = shapes['EAL2'];
+      }
+    } else if (line.route === 'TKL') {
+      const lineOne = shapes['TKL1'];
+      if (lineOne.some((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]) && lineOne.some((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1])) {
+        shape = shapes['TKL1'];
+      } else {
+        shape = shapes['TKL2'];
       }
     } else {
       shape = shapes[line.route];
@@ -94,13 +99,8 @@ const MapFrame = (props) => {
       container: mapContainer.current,
       style: 'mapbox://styles/theweekendest/ck1fhati848311cp6ezdzj5cm?optimize=true',
       center: [lng, lat],
-      bearing: MANHATTAN_TILT,
       minZoom: 9,
       zoom: zoom,
-      maxBounds: [
-        [-74.8113, 40.1797],
-        [-73.3584, 41.1247]
-      ],
       maxPitch: 0,
     });
     map.current.dragRotate.disable();
@@ -183,12 +183,11 @@ const MapFrame = (props) => {
       if (!bounds.isEmpty()) {
         map.current.fitBounds(bounds, {
           padding: {
-            top: 20,
+            top: 50,
             right: 20,
             left: 20,
-            bottom: 150,
+            bottom: 50,
           },
-          bearing: MANHATTAN_TILT,
         });
       }
     });

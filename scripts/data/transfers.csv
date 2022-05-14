@@ -1,0 +1,5 @@
+from_stop_id,to_stop_id
+CEN,HOK
+HOK,CEN
+TST,ETS
+ETS,TST
