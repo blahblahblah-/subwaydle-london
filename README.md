@@ -2,6 +2,10 @@
 
 A Hong Kong MTR-based fork of the original [Subwaydle](https://www.subwaydle.com) game. Contains some source code lifted from the [open-source clone](https://github.com/cwackerfuss/word-guessing-game) by Hannah Park. Subwaydle is a static JavaScript app, written using Create React App with React, Sass, Semantic UI React and Mapbox. A few Ruby scripts were written to generate JSON data files used by the app.
 
+Main differences between this and the original are that game logic is simplified as trains don't interline and don't have special weekend patterns, but trains can platform at the station far away from each ohter. Data is not sourced officially as they don't have open data of schedules.
+
+Also used [react-i18next](https://github.com/i18next/react-i18next) to support both English and Traditional Chinese.
+
 See it live at https://hk.subwaydle.com
 
 ## Running locally
