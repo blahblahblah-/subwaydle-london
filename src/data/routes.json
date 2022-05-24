@@ -1,62 +1,75 @@
 {
-  "KTL":{
-    "id": "KTL",
-    "name_english": "Kwun Tong Line",
-    "name_chinese": "觀塘綫",
-    "color": "#00ab4e"
+  "Bakerloo":{
+    "id": "Bakerloo",
+    "name": "Bakerloo",
+    "color": "#A45A2A"
   },
-  "TWL":{
-    "id": "TWL",
-    "name_english": "Tsuen Wan Line",
-    "name_chinese": "荃灣綫",
-    "color": "#ed1d24"
+  "Central":{
+    "id": "Central",
+    "name": "Central",
+    "color": "#DA291C"
   },
-  "ISL":{
-    "id": "ISL",
-    "name_english": "Island Line",
-    "name_chinese": "港島綫",
-    "color": "#007dc5"
+  "Circle":{
+    "id": "Circle",
+    "name": "Circle",
+    "color": "#FFCD00",
+    "text_color": "#10069f"
   },
-  "TCL":{
-    "id": "TCL",
-    "name_english": "Tung Chung Line",
-    "name_chinese": "東涌綫",
-    "color": "#f7943e"
+  "District":{
+    "id": "District",
+    "name": "District",
+    "color": "#007A33"
   },
-  "DRL":{
-    "id": "DRL",
-    "name_english": "Disneyland Resort Line",
-    "name_chinese": "迪士尼綫",
-    "color": "#f173ac"
+  "DLR":{
+    "id": "DLR",
+    "name": "DLR",
+    "color": "#00B2A9"
   },
-  "AEL":{
-    "id": "AEL",
-    "name_english": "Airport Express",
-    "name_chinese": "機場快綫",
-    "color": "#00888a"
+  "Elizabeth":{
+    "id": "Elizabeth",
+    "name": "Elizabeth line",
+    "color": "#753BBD"
   },
-  "TKL":{
-    "id": "TKL",
-    "name_english": "Tseung Kwan O Line",
-    "name_chinese": "將軍澳綫",
-    "color": "#7d499d"
+  "Hammersmith":{
+    "id": "Hammersmith",
+    "name": "Hammersmith & City",
+    "color": "#E89CAE",
+    "text_color": "#10069f"
   },
-  "EAL":{
-    "id": "EAL",
-    "name_english": "East Rail Line",
-    "name_chinese": "東鐵綫",
-    "color": "#53b7e8"
+  "Jubilee":{
+    "id": "Jubilee",
+    "name": "Jubilee",
+    "color": "#7C878E"
   },
-  "TML":{
-    "id": "TML",
-    "name_english": "Tuen Ma Line",
-    "name_chinese": "屯馬綫",
-    "color": "#923011"
+  "Metropolitan":{
+    "id": "Metropolitan",
+    "name": "Metropolitan",
+    "color": "#840B55"
   },
-  "SIL":{
-    "id": "SIL",
-    "name_english": "South Island Line",
-    "name_chinese": "南港島綫",
-    "color": "#bac429"
+  "Northern":{
+    "id": "Northern",
+    "name": "Northern",
+    "color": "#000000"
+  },
+  "Overground":{
+    "id": "Overground",
+    "name": "Overground",
+    "color": "#E87722"
+  },
+  "Piccadilly":{
+    "id": "Piccadilly",
+    "name": "Piccadilly",
+    "color": "#10069f"
+  },
+  "Victoria":{
+    "id": "Victoria",
+    "name": "Victoria",
+    "color": "#00A3E0"
+  },
+  "Waterloo":{
+    "id": "Waterloo",
+    "name": "Waterloo & City",
+    "color": "#6ECEB2",
+    "text_color": "#10069f"
   }
 }

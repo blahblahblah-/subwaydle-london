@@ -11,11 +11,22 @@ import './MapFrame.scss';
 
 mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
+const linesWithMultipleRoutes = {
+  "Central": 3,
+  "District": 4,
+  "DLR": 5,
+  "Elizabeth": 5,
+  "Metropolitan": 4,
+  "Northern": 6,
+  "Overground": 11,
+  "Piccadilly": 3,
+}
+
 const MapFrame = (props) => {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const [lng, setLng] = useState(114.1694);
-  const [lat, setLat] = useState(22.2893);
+  const [lng, setLng] = useState(-0.1272);
+  const [lat, setLat] = useState(51.5074);
   const [zoom, setZoom] = useState(12);
   const solution = todaysSolution();
 
@@ -36,7 +47,7 @@ const MapFrame = (props) => {
           "type": "Feature",
           "properties": {
             "id": stopId,
-            "name": `${station.name_chinese}\n${station.name_english}`,
+            "name": `${station.name}`,
           },
           "geometry": {
             "type": "Point",
@@ -50,27 +61,22 @@ const MapFrame = (props) => {
   const lineGeoJson = (line) => {
     const route = routes[line.route];
     let shape;
-    const beginCoord = [stations[line.begin].stops[line.route].longitude, stations[line.begin].stops[line.route].latitude];
-    const endCoord = [stations[line.end].stops[line.route].longitude, stations[line.end].stops[line.route].latitude];
+    let internalRoute = line.route;
+
+    if (linesWithMultipleRoutes[line.route]) {
+      internalRoute = Array.from(Array(linesWithMultipleRoutes[line.route]).keys()).map((i) => {
+        return `${line.route}-${i + 1}`;  
+      }).find((potentialInternalRoute) => {
+        return stations[line.begin].stops[potentialInternalRoute] && stations[line.end].stops[potentialInternalRoute];
+      });
+    }
+
+    const beginCoord = [stations[line.begin].stops[internalRoute].longitude, stations[line.begin].stops[internalRoute].latitude];
+    const endCoord = [stations[line.end].stops[internalRoute].longitude, stations[line.end].stops[internalRoute].latitude];
+
     let coordinates = [];
 
-    if (line.route === 'EAL') {
-      const lineOne = shapes['EAL1'];
-      if (lineOne.some((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]) && lineOne.some((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1])) {
-        shape = shapes['EAL1'];
-      } else {
-        shape = shapes['EAL2'];
-      }
-    } else if (line.route === 'TKL') {
-      const lineOne = shapes['TKL1'];
-      if (lineOne.some((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]) && lineOne.some((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1])) {
-        shape = shapes['TKL1'];
-      } else {
-        shape = shapes['TKL2'];
-      }
-    } else {
-      shape = shapes[line.route];
-    }
+    shape = shapes[internalRoute];
 
     const beginIndex = shape.findIndex((coord) => coord[0] === beginCoord[0] && coord[1] === beginCoord[1]);
     const endIndex = shape.findIndex((coord) => coord[0] === endCoord[0] && coord[1] === endCoord[1]);

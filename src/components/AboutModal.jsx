@@ -13,8 +13,8 @@ const AboutModal = (props) => {
       <Modal.Header>{ t('about.title') }</Modal.Header>
       <Modal.Content scrolling>
         <Trans i18nKey="about.intro">
-          <p>Guess the <strong>MTRDLE</strong> in 6 tries.</p>
-          <p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using interchanges between them.</p>
+          <p>Guess the <strong>ROUNDLE</strong> in 6 tries.</p>
+          <p>Each guess must a be a <strong>valid train trip involving 3 trains</strong> using valid interchanges between them.</p>
           <p>You need to guess a specific set of three trains that can make the trip.</p>
         </Trans>
         <Header as='h4'>{ t('about.examples.title') }</Header>
@@ -28,31 +28,31 @@ const AboutModal = (props) => {
                       <Icon name="check" fitted />
                     </Label>
                   }
-                  <TrainLabel id='ISL' size='small' />
+                  <TrainLabel id='Elizabeth' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TWL' size='small' />
+                  <TrainLabel id='Piccadilly' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='KTL' size='small' />
+                  <TrainLabel id='Northern' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
 
-        <p><TrainLabel id='ISL' size='small' /> { t('about.examples.correct') }</p>
+        <p><TrainLabel id='Elizabeth' size='small' /> { t('about.examples.correct') }</p>
 
         <Segment basic>
           <Grid centered columns={3} className='game-grid'>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='EAL' size='small' />
+                  <TrainLabel id='Overground' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -62,30 +62,30 @@ const AboutModal = (props) => {
                       <Icon name="arrows alternate horizontal" fitted />
                     </Label>
                   }
-                  <TrainLabel id='KTL' size='small' />
+                  <TrainLabel id='Overground' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TML' size='small' />
+                  <TrainLabel id='DLR' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
-        <p><TrainLabel id='KTL' size='small' /> { t('about.examples.present') }</p>
+        <p><TrainLabel id='Overground' size='small' /> { t('about.examples.present') }</p>
 
         <Segment basic>
           <Grid centered columns={3} className='game-grid'>
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TML' size='small' />
+                  <TrainLabel id='District' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='TCL' size='small' />
+                  <TrainLabel id='Central' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -95,24 +95,25 @@ const AboutModal = (props) => {
                       <Icon name="x" fitted />
                     </Label>
                   }
-                  <TrainLabel id='AEL' size='small' />
+                  <TrainLabel id='Circle' size='small' />
                 </Segment>
               </Grid.Column>
             </Grid.Row>
           </Grid>
         </Segment>
-        <p><TrainLabel id='AEL' size='small' /> { t('about.examples.absent') }</p>
+        <p><TrainLabel id='Circle' size='small' /> { t('about.examples.absent') }</p>
 
         <Trans i18nKey="about.explanation">
           <p><strong>Multiple routings may be possible</strong> to make the trip, but your goal is to
           find <strong>the one routing</strong> that matches the puzzle of the day. The solution <strong>may or may not</strong> be the fastest or efficient routing.</p>
-          <p>Routing for each train line is based on <strong>midday schedule</strong> (i.e. LOHAS Park branch trains terminate at Tiu Keng Leng).</p>
+          <p>Routing for each train line is based on <strong>weekday off-peak schedule</strong> (i.e. Edgware to Morden - Northern line trains travel via Bank only, no fast/semi-fast Metroplitan line trains).</p>
         </Trans>
 
         <Header as='h4'>{ t('about.about.title') }</Header>
         <p>
           <Trans i18nKey="about.about.subwaydle">
             This game is forked from the original <a href="https://www.subwaydle.com" target="_blank">Subwaydle</a> game based on the NYC Subway system.
+            Play the Hong Kong version of the game <a href="https://hk.subwaydle.com" target="_blank">here</a>.
           </Trans>
         </p>
 
@@ -131,7 +132,10 @@ const AboutModal = (props) => {
           <a href='https://twitter.com/_blahblahblah' target='_blank'><Icon name='twitter' link /></a>
         </p>
 
-          <p><a href="https://github.com/blahblahblah-/subwaydle-hk" target="_blank">Source code</a>.</p>
+          <p><a href="https://github.com/blahblahblah-/subwaydle-london" target="_blank">Source code</a>.</p>
+
+          <p>Geolocation data © <a href="https://www.openstreetmap.org/copyright" target="_blank">OpenStreetMap contributors</a>.</p>
+
           <p>{ t("about.about.other_projects")} <a href="https://www.theweekendest.com" target="_blank">The Weekendest</a> and <a href="https://www.goodservice.io" target="_blank">goodservice.io</a>.</p>
       </Modal.Content>
     </Modal>

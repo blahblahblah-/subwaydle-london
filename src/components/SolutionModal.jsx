@@ -66,7 +66,7 @@ const SolutionModal = (props) => {
     [stations[solution.origin], stations[solution.first_transfer_arrival]],
     [stations[solution.first_transfer_departure], stations[solution.second_transfer_arrival]],
     [stations[solution.second_transfer_departure], stations[solution.destination]],
-  ].map((pair) => pair.map((s) => isEnglish ? s.name_english : s.name_chinese));
+  ].map((pair) => pair.map((s) => s.name));
 
   return (
     <Modal closeIcon open={isModalOpen} onClose={handleClose} ref={modal} className='solutions-modal' size='small'>

@@ -13,10 +13,10 @@ const classNames = (size) => {
 }
 
 const style = (train) => {
-  const { color } = train;
+  const { color, text_color } = train;
   let styleHash = {
     backgroundColor: `${color}`,
-    color: '#ffffff',
+    color: text_color || '#ffffff',
     margin: 0,
   };
 
@@ -34,8 +34,8 @@ const TrainLabel = (props) => {
   const { id } = props;
   const { i18n } = useTranslation();
   const train = routes[id];
-  const name = i18n.language.startsWith('zh') ? train.name_chinese : train.name_english;
-  const size = i18n.language.startsWith('zh') ? 'medium' : 'small';
+  const name = train.name;
+  const size = 'small';
 
   return (
     <Label style={style(train)} size={size}>

@@ -6,16 +6,20 @@ import routes from '../data/routes.json';
 import './Keyboard.scss';
 
 const KEYBOARD_MAPPING = {
-  "A": "AEL",
-  "D": "DRL",
-  "E": "EAL",
-  "I": "ISL",
-  "K": "KTL",
-  "S": "SIL",
-  "T": "TWL",
-  "O": "TKL",
-  "M": "TML",
-  "C": "TCL"
+  "B": "Bakerloo",
+  "C": "Central",
+  "I": "Circle",
+  "D": "District",
+  "L": "DLR",
+  "E": "Elizabeth",
+  "H": "Hammersmith",
+  "J": "Jubilee",
+  "M": "Metropolitan",
+  "N": "Northern",
+  "O": "Overground",
+  "P": "Piccadilly",
+  "V": "Victoria",
+  "W": "Waterloo",
 }
 
 const Keyboard = (props) => {
@@ -53,7 +57,7 @@ const Keyboard = (props) => {
     <Grid centered columns={3} className='keyboard'>
       <Grid.Row>
         {
-          ["KTL", "TWL", "ISL"].map((routeId) => {
+          ["Bakerloo", "Central", "Circle"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -69,7 +73,7 @@ const Keyboard = (props) => {
       </Grid.Row>
       <Grid.Row>
         {
-          ["TCL", "AEL", "SIL"].map((routeId) => {
+          ["District", "Hammersmith", "Jubilee"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -83,9 +87,25 @@ const Keyboard = (props) => {
           })
         }
         </Grid.Row>
-        <Grid.Row columns={2}>
+        <Grid.Row>
         {
-          ["TKL", "DRL"].map((routeId) => {
+          ["Metropolitan", "Northern", "Piccadilly"].map((routeId) => {
+            return (
+              <Key
+                id={routeId}
+                key={routeId}
+                onClick={onChar}
+                isCorrect={correctRoutes.includes(routeId)}
+                isPresent={presentRoutes.includes(routeId)}
+                isAbsent={absentRoutes.includes(routeId)}
+              />
+            )
+          })
+        }
+        </Grid.Row>
+        <Grid.Row>
+        {
+          ["Victoria", "Waterloo", "Elizabeth"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -106,7 +126,7 @@ const Keyboard = (props) => {
             </Button>
           </Grid.Column>
         {
-          ["EAL", "TML"].map((routeId) => {
+          ["DLR", "Overground"].map((routeId) => {
             return (
               <Key
                 id={routeId}

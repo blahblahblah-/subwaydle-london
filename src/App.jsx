@@ -175,28 +175,16 @@ const App = () => {
     setIsAboutOpen(true);
   }
 
-  const origin = i18n.language.startsWith('en') ? stations[solution.origin].name_english : stations[solution.origin].name_chinese;
-  const destination = i18n.language.startsWith('en') ? stations[solution.destination].name_english : stations[solution.destination].name_chinese;
+  const origin = stations[solution.origin].name;
+  const destination = stations[solution.destination].name;
 
   return (
     <Segment basic className='app-wrapper'>
       <Segment clearing basic className='header-wrapper'>
-        <Header floated='left'>MTRdle</Header>
+        <Header floated='left'>Roundle</Header>
         <Icon className='float-right' name='cog' size='large' link onClick={handleSettingsOpen} />
         <Icon className='float-right' name='chart bar' size='large' link onClick={handleStatsOpen} />
         <Icon className='float-right' name='question circle outline' size='large' link onClick={handleAboutOpen} />
-        {
-          i18n.language.startsWith('zh') &&
-          <a href="#" className='float-right menu' onClick={() => i18n.changeLanguage("en")}>
-            English
-          </a>
-        }
-        {
-          i18n.language.startsWith('en') &&
-          <a href="#" className='float-right menu' onClick={() => i18n.changeLanguage("zh")}>
-            中文
-          </a>
-        }
       </Segment>
       <Header as='h5' textAlign='center' className='hint'>
         <Trans i18nKey="hint">

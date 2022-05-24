@@ -3,7 +3,53 @@ require "json"
 require "rgeo"
 
 routes = [
-  "AEL", "DRL", "EAL1", "EAL2", "ISL", "KTL", "SIL", "TCL", "TKL1", "TKL2", "TML", "TWL"
+  "Bakerloo",
+  "Central-1",
+  "Central-2",
+  "Central-3",
+  "Circle",
+  "District-1",
+  "District-2",
+  "District-3",
+  "District-4",
+  "DLR-1",
+  "DLR-2",
+  "DLR-3",
+  "DLR-4",
+  "DLR-5",
+  "Elizabeth-1",
+  "Elizabeth-2",
+  "Elizabeth-3",
+  "Elizabeth-4",
+  "Elizabeth-5",
+  "Hammersmith",
+  "Jubilee",
+  "Metropolitan-1",
+  "Metropolitan-2",
+  "Metropolitan-3",
+  "Metropolitan-4",
+  "Northern-1",
+  "Northern-2",
+  "Northern-3",
+  "Northern-4",
+  "Northern-5",
+  "Northern-6",
+  "Overground-1",
+  "Overground-2",
+  "Overground-3",
+  "Overground-4",
+  "Overground-5",
+  "Overground-6",
+  "Overground-7",
+  "Overground-8",
+  "Overground-9",
+  "Overground-10",
+  "Overground-11",
+  "Piccadilly-1",
+  "Piccadilly-2",
+  "Piccadilly-3",
+  "Victoria",
+  "Waterloo",
 ]
 
 stations = {}
@@ -13,15 +59,14 @@ factory = RGeo::Geos.factory(:native_interface => :ffi)
 stations_csv = File.read('data/stations.csv')
 csv = CSV.parse(stations_csv, headers: true)
 csv.each do |row|
-  stations[row['Station Code']] = {
-    id: row['Station ID'],
-    name_english: row['English Name'],
-    name_chinese: row['Chinese Name'],
+  stations[row['ID']] = {
+    id: row['ID'],
+    name: row['Station'].gsub(' and ', ' & ').gsub(/\([^)]*\)/, '').strip,
     latitude: row['Latitude'].to_f,
     longitude: row['Longitude'].to_f,
     stops: {},
   }
-  stationPoints[row['Station Code']] = factory.point(row['Latitude'].to_f,row['Longitude'].to_f).fg_geom
+  stationPoints[row['ID']] = factory.point(row['Latitude'].to_f,row['Longitude'].to_f).fg_geom
 end
 
 routes.each do |r|
@@ -41,7 +86,7 @@ routes.each do |r|
     low_level_closest_point = low_level_polyline.interpolate(dist)
     closest_point = factory.wrap_fg_geom(low_level_closest_point)
     closest_coord = shape.sort_by { |coords| (coords[1] - closest_point.x).abs + (coords[0] - closest_point.y).abs }.first
-    stations[station_code][:stops][r[0..2]] = {
+    stations[station_code][:stops][r] = {
       latitude: closest_coord[1],
       longitude: closest_coord[0]
     }

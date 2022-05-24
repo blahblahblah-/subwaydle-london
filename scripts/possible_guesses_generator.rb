@@ -4,11 +4,56 @@ require "json"
 require "geokit"
 
 routes = [
-  "AEL", "DRL", "EAL1", "EAL2", "ISL", "KTL", "SIL", "TCL", "TKL1", "TKL2", "TML", "TWL"
+  "Bakerloo",
+  "Central-1",
+  "Central-2",
+  "Central-3",
+  "Circle",
+  "District-1",
+  "District-2",
+  "District-3",
+  "District-4",
+  "DLR-1",
+  "DLR-2",
+  "DLR-3",
+  "DLR-4",
+  "DLR-5",
+  "Elizabeth-1",
+  "Elizabeth-2",
+  "Elizabeth-3",
+  "Elizabeth-4",
+  "Elizabeth-5",
+  "Hammersmith",
+  "Jubilee",
+  "Metropolitan-1",
+  "Metropolitan-2",
+  "Metropolitan-3",
+  "Metropolitan-4",
+  "Northern-1",
+  "Northern-2",
+  "Northern-3",
+  "Northern-4",
+  "Northern-5",
+  "Northern-6",
+  "Overground-1",
+  "Overground-2",
+  "Overground-3",
+  "Overground-4",
+  "Overground-5",
+  "Overground-6",
+  "Overground-7",
+  "Overground-8",
+  "Overground-9",
+  "Overground-10",
+  "Overground-11",
+  "Piccadilly-1",
+  "Piccadilly-2",
+  "Piccadilly-3",
+  "Victoria",
+  "Waterloo",
 ]
 
 transfers = {}
-transfer_restrictions = {}
 
 transfers_csv = File.read('data/transfers.csv')
 csv = CSV.parse(transfers_csv, headers: true)
@@ -20,12 +65,6 @@ csv.each do |row|
   end
 end
 
-transfer_restrictions_csv = File.read('data/transfer_restrictions.csv')
-csv = CSV.parse(transfer_restrictions_csv, headers: true)
-csv.each do |row|
-  transfer_restrictions["#{row['stop_id']}-#{row['from_line']}-#{row['from_direction']}"] = "#{row['to_line']}-#{row['to_direction']}"
-end
-
 answers = Set.new
 solutions = {}
 station_stops = {}
@@ -35,8 +74,8 @@ latlng = {}
 stations_csv = File.read('data/stations.csv')
 csv = CSV.parse(stations_csv, headers: true)
 csv.each do |row|
-  station_stops[row['Station Code']] = []
-  latlng[row['Station Code']] = Geokit::LatLng.new(row['Latitude'],row['Longitude'])
+  station_stops[row['ID']] = []
+  latlng[row['ID']] = Geokit::LatLng.new(row['Latitude'],row['Longitude'])
 end
 
 routes.each do |r|
@@ -53,8 +92,7 @@ station_stops.each do |s1, routes|
   routes.each do |r1|
     i1 = routings[r1].index(s1)
 
-    [routings[r1][i1..-1], routings[r1][0..i1].reverse].each_with_index do |subrouting1, dir_index1|
-      subrouting1_dir = dir_index1 == 0 ? "UT" : "DT"
+    [routings[r1][i1..-1], routings[r1][0..i1].reverse].each do |subrouting1|
       subrouting1.each_with_index do |s2, i1n|
         next if i1n == 0
         path1 = subrouting1[0..i1n]
@@ -72,13 +110,11 @@ station_stops.each do |s1, routes|
               next if (r2_t1_index - r2_s1_index).abs <= i1n
             end
             i2 = routings[r2].index(t1)
-            [routings[r2][i2..-1], routings[r2][0..i2].reverse].each_with_index do |subrouting2, dir_index2|
-              subrouting2_dir = dir_index2 == 0 ? "UT" : "DT"
-              next if transfer_restrictions["#{t1}-#{r1}-#{subrouting1_dir}"] == "#{r2}-#{subrouting2_dir}"
-              next if next_station1 && (subrouting2.include?(next_station1) || [transfers[next_station1]].flatten.compact.any? { |s| subrouting2.include?(s) }) && transfer_restrictions["#{next_station1}-#{r1}-#{subrouting1_dir}"] != "#{r2}-#{subrouting2_dir}"
+            [routings[r2][i2..-1], routings[r2][0..i2].reverse].each do |subrouting2|
+              next if next_station1 && (subrouting2.include?(next_station1) || [transfers[next_station1]].flatten.compact.any? { |s| subrouting2.include?(s) })
               subrouting2.each_with_index do |s3, i2n|
                 next if i2n == 0
-                break if (subrouting1.include?(s3) || [transfers[s3]].flatten.compact.any? { |s| path1.include?(s) }) && transfer_restrictions["#{s3}-#{r1}-#{subrouting1_dir}"] != "#{r2}-#{subrouting2_dir}"
+                break if (subrouting1.include?(s3) || [transfers[s3]].flatten.compact.any? { |s| path1.include?(s) })
                 path2 = subrouting2[0..i2n]
                 next_station2 = subrouting2[i2n + 1]
                 transfers2 = [transfers[s3]].flatten.compact
@@ -94,14 +130,11 @@ station_stops.each do |s1, routes|
                     end
                     i3 = routings[r3].index(t2)
 
-                    [routings[r3][i3..-1], routings[r3][0..i3].reverse].each_with_index do |subrouting3, dir_index3|
-                      subrouting3_dir = dir_index3 == 0 ? "UT" : "DT"
-                      next if transfer_restrictions["#{t2}-#{r2}-#{subrouting2_dir}"] == "#{r3}-#{subrouting3_dir}"
-                      next if next_station2 && (subrouting3.include?(next_station2) || [transfers[next_station2]].flatten.compact.any? { |s| subrouting3.include?(s) }) && transfer_restrictions["#{next_station2}-#{r2}-#{subrouting2_dir}"] != "#{r3}-#{subrouting3_dir}"
+                    [routings[r3][i3..-1], routings[r3][0..i3].reverse].each do |subrouting3|
+                      next if next_station2 && (subrouting3.include?(next_station2) || [transfers[next_station2]].flatten.compact.any? { |s| subrouting3.include?(s) })
                       subrouting3.each_with_index do |s4, i3n|
                         next if i3n == 0
-                        break if (subrouting1.include?(s4) || subrouting2.include?(s4) || [transfers[s4]].flatten.compact.any? { |s| path1.include?(s) } || [transfers[s4]].flatten.compact.any? { |s| path2.include?(s) }) &&
-                          transfer_restrictions["#{s4}-#{r2}-#{subrouting2_dir}"] != "#{r3}-#{subrouting3_dir}"
+                        break if (subrouting1.include?(s4) || subrouting2.include?(s4) || [transfers[s4]].flatten.compact.any? { |s| path1.include?(s) } || [transfers[s4]].flatten.compact.any? { |s| path2.include?(s) })
 
                         path3 = subrouting3[0..i3n]
 
@@ -121,10 +154,9 @@ station_stops.each do |s1, routes|
                         end
 
                         combo = [r1, r2, r3].map do |x|
-                          if x.start_with?("EAL")
-                            "EAL"
-                          elsif  x.start_with?("TKL")
-                            "TKL"
+                          if x.include?('-')
+                            split_arr = x.split('-')
+                            split_arr[0]
                           else
                             x
                           end

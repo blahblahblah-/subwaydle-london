@@ -1,5 +1,0 @@
-stop_id,from_line,from_direction,to_line,to_direction
-PRE,TWL,UT,KTL,UT
-YMT,TWL,DT,KTL,DT
-PRE,KTL,UT,TWL,UT
-YMT,KTL,DT,TWL,DT
