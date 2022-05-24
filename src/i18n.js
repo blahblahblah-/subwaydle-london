@@ -60,7 +60,8 @@ i18n
             },
             about: {
               title: "About",
-              subwaydle: "This game is forked from the original <1>Subwaydle</1> game based on the NYC Subway system. Play the Hong Kong version of the game <3>here</3>.",
+              subwaydle: "This game is forked from the original <1>Subwaydle</1> game based on the NYC Subway system",
+              around_the_world: "Subwaydles around the world: <1>New York</1>, <3>Hong Kong</3>.",
               inspirations: "Inspired by <1>Wordle</1>, its <3>open-source clone</3>, <5>Nerdle</5>, and <7>New York Transit Museum</7> Trivia Nights.",
               created: "Created by <1>Sunny Ng</1>",
               other_projects: "Check out my other NYC Subway related projects:"

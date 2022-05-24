@@ -113,7 +113,12 @@ const AboutModal = (props) => {
         <p>
           <Trans i18nKey="about.about.subwaydle">
             This game is forked from the original <a href="https://www.subwaydle.com" target="_blank">Subwaydle</a> game based on the NYC Subway system.
-            Play the Hong Kong version of the game <a href="https://hk.subwaydle.com" target="_blank">here</a>.
+          </Trans>
+        </p>
+
+        <p>
+          <Trans i18nKey="about.about.around_the_world">
+            Subwaydles around the world: <a href="https://www.subwaydle.com" target="_blank">New York</a>, <a href="https://hk.subwaydle.com" target="_blank">Hong Kong</a>.
           </Trans>
         </p>
 
