@@ -5,6 +5,10 @@
     "latitude": 51.531952,
     "longitude": 0.003723371098,
     "stops": {
+      "DLR-1": {
+        "latitude": 51.5321239,
+        "longitude": 0.004004
+      }
     }
   },
   "2": {
@@ -161,10 +165,6 @@
     "latitude": 51.51047691,
     "longitude": -0.01262488536,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.5182102,
-        "longitude": 0.0048562
-      },
       "DLR-5": {
         "latitude": 51.5104224,
         "longitude": -0.0129541
@@ -853,10 +853,6 @@
     "latitude": 51.50783153,
     "longitude": -0.007235165878,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.5169009,
-        "longitude": 0.005557
-      },
       "DLR-2": {
         "latitude": 51.5078788,
         "longitude": -0.0076805
@@ -960,10 +956,6 @@
       "District-3": {
         "latitude": 51.5252113,
         "longitude": -0.0213346
-      },
-      "DLR-1": {
-        "latitude": 51.5421648,
-        "longitude": -0.0123046
       },
       "DLR-5": {
         "latitude": 51.527541,
@@ -2241,10 +2233,6 @@
     "latitude": 51.52225844,
     "longitude": -0.01800775418,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.5419715,
-        "longitude": -0.0118151
-      },
       "DLR-5": {
         "latitude": 51.5225619,
         "longitude": -0.0174939
@@ -2461,10 +2449,6 @@
     "latitude": 51.50868401,
     "longitude": -0.002370331549,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.5156838,
-        "longitude": 0.0064885
-      },
       "DLR-2": {
         "latitude": 51.5092892,
         "longitude": -0.0027847
@@ -4729,10 +4713,6 @@
     "latitude": 51.51888392,
     "longitude": -0.01521379895,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.5214998,
-        "longitude": 0.0042123
-      },
       "DLR-5": {
         "latitude": 51.5187999,
         "longitude": -0.0152309
@@ -6201,10 +6181,6 @@
     "latitude": 51.50758804,
     "longitude": -0.01727549329,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.517673,
-        "longitude": 0.0050973
-      },
       "DLR-2": {
         "latitude": 51.5078397,
         "longitude": -0.017478
@@ -6261,10 +6237,6 @@
     "latitude": 51.53432784,
     "longitude": -0.01276851194,
     "stops": {
-      "DLR-1": {
-        "latitude": 51.5418056,
-        "longitude": -0.0112162
-      },
       "DLR-5": {
         "latitude": 51.5342579,
         "longitude": -0.0126884
@@ -7389,6 +7361,10 @@
     "latitude": 51.52060426,
     "longitude": 0.004191002628,
     "stops": {
+      "DLR-1": {
+        "latitude": 51.5207332,
+        "longitude": 0.0043634
+      }
     }
   },
   "523": {
@@ -7525,6 +7501,10 @@
     "latitude": 51.53814895,
     "longitude": -0.001080356004,
     "stops": {
+      "DLR-1": {
+        "latitude": 51.5383211,
+        "longitude": -0.001042
+      }
     }
   },
   "530": {
@@ -8664,6 +8644,10 @@
       "District-3": {
         "latitude": 51.5284689,
         "longitude": 0.0052798
+      },
+      "DLR-1": {
+        "latitude": 51.5286504,
+        "longitude": 0.0046448
       },
       "Hammersmith": {
         "latitude": 51.5285558,
