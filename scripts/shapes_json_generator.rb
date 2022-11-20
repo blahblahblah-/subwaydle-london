@@ -20,7 +20,6 @@ routes = [
   "Elizabeth-2",
   "Elizabeth-3",
   "Elizabeth-4",
-  "Elizabeth-5",
   "Hammersmith",
   "Jubilee",
   "Metropolitan-1",
