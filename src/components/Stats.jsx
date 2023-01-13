@@ -1,13 +1,12 @@
-import { Icon } from 'semantic-ui-react';
 import StatsBox from './StatsBox';
 import StatsHistogram from './StatsHistogram';
 
 const Stats = (props) => {
-  const { stats } = props;
+  const { stats, isDarkMode } = props;
   return (
     <>
-      <StatsBox stats={stats} />
-      <StatsHistogram stats={stats} />
+      <StatsBox isDarkMode={isDarkMode} stats={stats} />
+      <StatsHistogram isDarkMode={isDarkMode} stats={stats} />
     </>
   );
 }

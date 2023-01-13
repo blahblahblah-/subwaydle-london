@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import './StatsHistogram.scss';
 
 const StatsHistogram = (props) => {
-  const { stats } = props;
+  const { isDarkMode, stats } = props;
   const { t } = useTranslation();
   const max = Math.max(...stats.winDistribution);
   return (
@@ -20,7 +20,7 @@ const StatsHistogram = (props) => {
                     { i + 1}
                   </Grid.Column>
                   <Grid.Column width={14}>
-                    <Progress progress='value' success value={value} total={max} />
+                    <Progress progress='value' success inverted={isDarkMode} value={value} total={max} />
                   </Grid.Column>
                 </Grid.Row>
               )

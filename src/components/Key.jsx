@@ -4,7 +4,7 @@ import TrainLabel from './TrainLabel';
 import './Key.scss';
 
 const Key = (props) => {
-  const { id, disabled, onClick, isCorrect, isPresent, isAbsent } = props;
+  const { id, isDarkMode, disabled, onClick, isCorrect, isPresent, isAbsent } = props;
 
   const handleClick = () => {
     onClick(id);
@@ -22,7 +22,7 @@ const Key = (props) => {
 
   return (
     <Grid.Column className='key' stretched>
-      <Button disabled={disabled} onClick={handleClick} className={className}>
+      <Button disabled={disabled} onClick={handleClick} className={className} inverted={isDarkMode}>
         <TrainLabel id={id} size='small' />
       </Button>
     </Grid.Column>

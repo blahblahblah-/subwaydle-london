@@ -4,13 +4,13 @@ import { useTranslation, Trans } from 'react-i18next';
 import './StatsBox.scss'
 
 const StatsBox = (props) => {
-  const { stats } = props;
+  const { isDarkMode, stats } = props;
   const { t } = useTranslation();
   return (
     <>
       <Header as='h3'>{ t('statistics.title') }</Header>
       <div className='stats-box'>
-        <Statistic.Group size='mini'>
+        <Statistic.Group size='mini' inverted={isDarkMode}>
           <Statistic>
             <Statistic.Value>{ stats.totalGames }</Statistic.Value>
             <Statistic.Label>{ t('statistics.total_games') }</Statistic.Label>

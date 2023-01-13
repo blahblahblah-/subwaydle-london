@@ -10,8 +10,6 @@ import StatsModal from './components/StatsModal';
 import SettingsModal from './components/SettingsModal';
 
 import {
-  isWeekend,
-  routesWithNoService,
   isValidGuess,
   isWinningGuess,
   updateGuessStatuses,
@@ -26,6 +24,8 @@ import {
 } from './utils/localStorage';
 
 import { addStatsForCompletedGame, loadStats } from './utils/stats';
+
+import { loadSettings } from './utils/settings';
 
 import stations from './data/stations.json';
 
@@ -68,10 +68,13 @@ const App = () => {
     return loaded.guesses;
   });
   const [stats, setStats] = useState(() => loadStats());
+  const [settings, setSettings] = useState(() => loadSettings());
 
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   const solution = todaysSolution();
+
+  const isDarkMode = settings.display.darkMode;
 
   useEffect(() => {
     saveGameStateToLocalStorage({ guesses, answer: flattenedTodaysTrip() })
@@ -179,53 +182,57 @@ const App = () => {
   const destination = stations[solution.destination].name;
 
   return (
-    <Segment basic className='app-wrapper'>
-      <Segment clearing basic className='header-wrapper'>
-        <Header floated='left'>Roundle</Header>
-        <Icon className='float-right' name='cog' size='large' link onClick={handleSettingsOpen} />
-        <Icon className='float-right' name='chart bar' size='large' link onClick={handleStatsOpen} />
-        <Icon className='float-right' name='question circle outline' size='large' link onClick={handleAboutOpen} />
+   <div className={"outer-app-wrapper " + (isDarkMode ? 'dark' : '')}>
+      <Segment basic className='app-wrapper' inverted={isDarkMode}>
+        <Segment clearing basic className='header-wrapper' inverted={isDarkMode}>
+          <Header floated='left'>Roundle</Header>
+          <Icon className='float-right' inverted={isDarkMode} name='cog' size='large' link onClick={handleSettingsOpen} />
+          <Icon className='float-right' inverted={isDarkMode} name='chart bar' size='large' link onClick={handleStatsOpen} />
+          <Icon className='float-right' inverted={isDarkMode} name='question circle outline' size='large' link onClick={handleAboutOpen} />
+        </Segment>
+        <Header as='h5' textAlign='center' className='hint'>
+          <Trans i18nKey="hint">
+            Travel from {{origin}} to {{destination}} with 2 interchanges.
+          </Trans>
+        </Header>
+        <Segment basic className='game-grid-wrapper'>
+          {
+            isNotEnoughRoutes &&
+            <Message negative floating attached='top'>
+              <Message.Header>{t('error.not_enough')}</Message.Header>
+            </Message>
+          }
+          {
+            isGuessInvalid &&
+            <Message negative>
+              <Message.Header>{t('error.not_valid')}</Message.Header>
+            </Message>
+          }
+          <GameGrid
+            isDarkMode={isDarkMode}
+            currentGuess={currentGuess}
+            guesses={guesses}
+            attempts={ATTEMPTS}
+            inPlay={!isGameWon && !isGameLost && guesses.length < 6}
+          />
+        </Segment>
+        <Segment basic>
+          <Keyboard
+            isDarkMode={isDarkMode}
+            onChar={onChar}
+            onDelete={onDelete}
+            onEnter={onEnter}
+            correctRoutes={correctRoutes}
+            presentRoutes={presentRoutes}
+            absentRoutes={absentRoutes}
+          />
+        </Segment>
+        <AboutModal open={isAboutOpen} isDarkMode={isDarkMode} handleClose={onAboutClose} />
+        <SolutionModal open={isSolutionsOpen} isDarkMode={isDarkMode} isGameWon={isGameWon} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} />
+        <StatsModal open={isStatsOpen} isDarkMode={isDarkMode} stats={stats} handleClose={onStatsClose} />
+        <SettingsModal open={isSettingsOpen} isDarkMode={isDarkMode} handleClose={onSettingsClose} onSettingsChange={setSettings} />
       </Segment>
-      <Header as='h5' textAlign='center' className='hint'>
-        <Trans i18nKey="hint">
-          Travel from {{origin}} to {{destination}} with 2 interchanges.
-        </Trans>
-      </Header>
-      <Segment basic className='game-grid-wrapper'>
-        {
-          isNotEnoughRoutes &&
-          <Message negative floating attached='top'>
-            <Message.Header>{t('error.not_enough')}</Message.Header>
-          </Message>
-        }
-        {
-          isGuessInvalid &&
-          <Message negative>
-            <Message.Header>{t('error.not_valid')}</Message.Header>
-          </Message>
-        }
-        <GameGrid
-          currentGuess={currentGuess}
-          guesses={guesses}
-          attempts={ATTEMPTS}
-          inPlay={!isGameWon && !isGameLost && guesses.length < 6}
-        />
-      </Segment>
-      <Segment basic>
-        <Keyboard
-          onChar={onChar}
-          onDelete={onDelete}
-          onEnter={onEnter}
-          correctRoutes={correctRoutes}
-          presentRoutes={presentRoutes}
-          absentRoutes={absentRoutes}
-        />
-      </Segment>
-      <AboutModal open={isAboutOpen} handleClose={onAboutClose} />
-      <SolutionModal isGameWon={isGameWon} open={isSolutionsOpen} handleModalClose={onSolutionsClose} stats={stats} guesses={guesses} />
-      <StatsModal open={isStatsOpen} stats={stats} handleClose={onStatsClose} />
-      <SettingsModal open={isSettingsOpen} handleClose={onSettingsClose} />
-    </Segment>
+    </div>
   );
 }
 

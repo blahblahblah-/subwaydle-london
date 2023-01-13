@@ -10,20 +10,19 @@ import { todaysTrip, todaysSolution } from '../utils/answerValidations';
 import { shareStatus } from '../utils/share';
 
 import stations from "../data/stations.json";
-import './SolutionsModal.scss';
+import './SolutionModal.scss';
 
 const BUTTON_PROMPT_MS = 2000;
 
 const SolutionModal = (props) => {
-  const { open, handleModalClose, isGameWon, stats, guesses } = props;
+  const { open, handleModalClose, isDarkMode, isGameWon, stats, guesses } = props;
   const [isShareButtonShowCopied, setIsShareButtonShowCopied] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isModalHidden, setIsModalHidden] = useState(false);
   const modal = useRef(null);
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const trip = todaysTrip();
   const solution = todaysSolution();
-  const isEnglish = i18n.language.startsWith('en');
   const isIos = /iP(ad|od|hone)/i.test(window.navigator.userAgent) || (navigator.maxTouchPoints && navigator.maxTouchPoints > 2 && /MacIntel/.test(navigator.platform));
 
   const handleShareClick = () => {
@@ -69,7 +68,7 @@ const SolutionModal = (props) => {
   ].map((pair) => pair.map((s) => s.name));
 
   return (
-    <Modal closeIcon open={isModalOpen} onClose={handleClose} ref={modal} className='solutions-modal' size='small'>
+    <Modal closeIcon open={isModalOpen} onClose={handleClose} ref={modal} size='small' className={isDarkMode ? 'solution-modal dark' : 'solution-modal'}>
       {
         isGameWon && <Modal.Header>{ t('solution.win_message') }</Modal.Header>
       }
@@ -91,7 +90,7 @@ const SolutionModal = (props) => {
               )
             })
           }
-          <Stats stats={stats} />
+          <Stats isDarkMode={isDarkMode}  stats={stats} />
           <Button positive icon labelPosition='right' onClick={handleShareClick} className='share-btn'>
             { isShareButtonShowCopied ? t('solution.copied') : t('solution.share') }
             <Icon name={isShareButtonShowCopied ? 'check' : 'share alternate'} />
