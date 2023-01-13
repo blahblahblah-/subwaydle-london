@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { Modal, Header, Grid, Checkbox, Icon, Popup } from 'semantic-ui-react';
-import { useTranslation, Trans } from 'react-i18next';
+import { useTranslation } from 'react-i18next';
 
 import { saveSettings, loadSettings, defaultSettings } from '../utils/settings';
 
+import './SettingsModal.scss'
+
 const SettingsModal = (props, state) => {
-  const { open, handleClose } = props;
+  const { open, handleClose, onSettingsChange, isDarkMode } = props;
   const [settings, setSettings] = useState(loadSettings());
 
   const showAnswerStatusBadgesToggleChanged = (event, value) => {
@@ -15,12 +17,23 @@ const SettingsModal = (props, state) => {
 
     saveSettings(settings);
     setSettings(settings);
+    onSettingsChange(settings);
+  }
+
+  const darkModeToggleChanged = (event, value) => {
+    const settings = { ...defaultSettings };
+
+    settings.display.darkMode = value.checked;
+
+    saveSettings(settings);
+    setSettings(settings);
+    onSettingsChange(settings);
   }
 
   const { t } = useTranslation();
 
   return (
-    <Modal closeIcon open={open} onClose={handleClose} size='tiny'>
+    <Modal closeIcon open={open} onClose={handleClose} size='tiny' className={isDarkMode ? 'settings-modal dark' : 'settings-modal'}>
       <Modal.Header>{ t('settings.title') }</Modal.Header>
       <Modal.Content scrolling>
         <Header>{ t('settings.display.title') }</Header>
@@ -28,9 +41,9 @@ const SettingsModal = (props, state) => {
           <Grid.Row>
             <Grid.Column className='fourteen wide'>
               { t('settings.display.show_badges') }&nbsp;
-              <Popup content={t('settings.display.show_badges_hint')}
+              <Popup inverted={isDarkMode} content={t('settings.display.show_badges_hint')}
                 trigger={
-                  <Icon name='question circle outline' size='large' link
+                  <Icon inverted={isDarkMode} name='question circle outline' size='large' link
                     onHover={showAnswerStatusBadgesHoverDetail} />
                 }
               />
@@ -40,6 +53,17 @@ const SettingsModal = (props, state) => {
                 name='showAnswerStatusBadgesToggle'
                 onChange={showAnswerStatusBadgesToggleChanged}
                 checked={settings.display.showAnswerStatusBadges} />
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column className='fourteen wide'>
+              Dark Mode
+            </Grid.Column>
+            <Grid.Column className='two wide'>
+              <Checkbox toggle className='float-right'
+                name='darkModeToggle'
+                onChange={darkModeToggleChanged}
+                checked={settings.display.darkMode} />
             </Grid.Column>
           </Grid.Row>
         </Grid>
