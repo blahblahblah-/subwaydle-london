@@ -192,11 +192,17 @@ const App = () => {
             { isNightTube && 'Night'} Roundle
             {
               isNightTube &&
-              <Popup inverted content="You can now play Roundle in Dark Mode! Try solving today's Roundle using only Night Tube services."
+              <Popup
+                position='bottom center'
                 trigger={
                   <sup>[?]</sup>
                 }
-              />
+              >
+              <Popup.Content>
+                <p>You can now play Roundle in Dark Mode!</p>
+                <p>Try solving today's Roundle using only Night Tube services.</p>
+              </Popup.Content>
+              </Popup>
             }
           </Header>
           <Icon className='float-right' inverted={isDarkMode} name='cog' size='large' link onClick={handleSettingsOpen} />
