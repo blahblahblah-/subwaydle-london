@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Header, Segment, Icon, Message } from 'semantic-ui-react';
+import { Header, Segment, Icon, Message, Popup } from 'semantic-ui-react';
 import { useTranslation, Trans } from 'react-i18next';
 
 import GameGrid from './components/GameGrid';
@@ -15,6 +15,8 @@ import {
   updateGuessStatuses,
   flattenedTodaysTrip,
   todaysSolution,
+  todayGameIndex,
+  NIGHT_TUBE_GAME,
 } from './utils/answerValidations';
 
 import {
@@ -74,7 +76,7 @@ const App = () => {
 
   const solution = todaysSolution();
 
-  const isDarkMode = settings.display.darkMode;
+  const isDarkMode = (todayGameIndex() === NIGHT_TUBE_GAME) || (todayGameIndex() > NIGHT_TUBE_GAME && settings.display.darkMode);
 
   useEffect(() => {
     saveGameStateToLocalStorage({ guesses, answer: flattenedTodaysTrip() })
@@ -180,12 +182,23 @@ const App = () => {
 
   const origin = stations[solution.origin].name;
   const destination = stations[solution.destination].name;
+  const isNightTube = NIGHT_TUBE_GAME === todayGameIndex();
 
   return (
    <div className={"outer-app-wrapper " + (isDarkMode ? 'dark' : '')}>
       <Segment basic className='app-wrapper' inverted={isDarkMode}>
         <Segment clearing basic className='header-wrapper' inverted={isDarkMode}>
-          <Header floated='left'>Roundle</Header>
+          <Header floated='left'>
+            { isNightTube && 'Night'} Roundle
+            {
+              isNightTube &&
+              <Popup inverted content="You can now play Roundle in Dark Mode! Try solving today's Roundle using only Night Tube services."
+                trigger={
+                  <sup>[?]</sup>
+                }
+              />
+            }
+          </Header>
           <Icon className='float-right' inverted={isDarkMode} name='cog' size='large' link onClick={handleSettingsOpen} />
           <Icon className='float-right' inverted={isDarkMode} name='chart bar' size='large' link onClick={handleStatsOpen} />
           <Icon className='float-right' inverted={isDarkMode} name='question circle outline' size='large' link onClick={handleAboutOpen} />
@@ -219,6 +232,7 @@ const App = () => {
         <Segment basic>
           <Keyboard
             isDarkMode={isDarkMode}
+            isNightTube={isNightTube}
             onChar={onChar}
             onDelete={onDelete}
             onEnter={onEnter}
