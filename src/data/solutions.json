@@ -11863,10 +11863,10 @@
   },
   "Central-Northern-Victoria": {
     "origin": "480",
-    "first_transfer_arrival": "26",
-    "first_transfer_departure": "26",
-    "second_transfer_arrival": "320",
-    "second_transfer_departure": "320",
+    "first_transfer_arrival": "562",
+    "first_transfer_departure": "562",
+    "second_transfer_arrival": "596",
+    "second_transfer_departure": "596",
     "destination": "61",
     "travel_distance_factor": 1.342345105696415
   },

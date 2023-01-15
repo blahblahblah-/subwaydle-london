@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import { saveSettings, loadSettings, defaultSettings } from '../utils/settings';
 
+import { todayGameIndex, NIGHT_TUBE_GAME } from '../utils/answerValidations';
+
 import './SettingsModal.scss'
 
 const SettingsModal = (props, state) => {
@@ -55,17 +57,20 @@ const SettingsModal = (props, state) => {
                 checked={settings.display.showAnswerStatusBadges} />
             </Grid.Column>
           </Grid.Row>
-          <Grid.Row>
-            <Grid.Column className='fourteen wide'>
-              Dark Mode
-            </Grid.Column>
-            <Grid.Column className='two wide'>
-              <Checkbox toggle className='float-right'
-                name='darkModeToggle'
-                onChange={darkModeToggleChanged}
-                checked={settings.display.darkMode} />
-            </Grid.Column>
-          </Grid.Row>
+          {
+            todayGameIndex() > NIGHT_TUBE_GAME &&
+            <Grid.Row>
+              <Grid.Column className='fourteen wide'>
+                Dark Mode
+              </Grid.Column>
+              <Grid.Column className='two wide'>
+                <Checkbox toggle className='float-right'
+                  name='darkModeToggle'
+                  onChange={darkModeToggleChanged}
+                  checked={settings.display.darkMode} />
+              </Grid.Column>
+            </Grid.Row>
+          }
         </Grid>
       </Modal.Content>
     </Modal>

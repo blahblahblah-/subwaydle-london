@@ -21,8 +21,12 @@ const KEYBOARD_MAPPING = {
   "W": "Waterloo",
 }
 
+const NIGHT_TUBE_ROUTES = [
+  "Central", "Jubilee", "Northern", "Piccadilly", "Victoria", "Overground"
+];
+
 const Keyboard = (props) => {
-  const { onChar, onDelete, onEnter, isDarkMode, correctRoutes, presentRoutes, absentRoutes } = props;
+  const { onChar, onDelete, onEnter, isDarkMode, isNightTube, correctRoutes, presentRoutes, absentRoutes } = props;
 
   useEffect(() => {
     const listener = (e) => {
@@ -33,7 +37,9 @@ const Keyboard = (props) => {
       } else {
         const key = e.key.toUpperCase()
         if (KEYBOARD_MAPPING[key]) {
-          onChar(KEYBOARD_MAPPING[key]);
+          if (!isNightTube || NIGHT_TUBE_ROUTES.includes(KEYBOARD_MAPPING[key])) {
+            onChar(KEYBOARD_MAPPING[key]);
+          }
         }
       }
     }
@@ -62,6 +68,7 @@ const Keyboard = (props) => {
                 id={routeId}
                 key={routeId}
                 isDarkMode={isDarkMode}
+                disabled={isNightTube && !NIGHT_TUBE_ROUTES.includes(routeId)}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -79,6 +86,7 @@ const Keyboard = (props) => {
                 id={routeId}
                 key={routeId}
                 isDarkMode={isDarkMode}
+                disabled={isNightTube && !NIGHT_TUBE_ROUTES.includes(routeId)}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -96,6 +104,7 @@ const Keyboard = (props) => {
                 id={routeId}
                 key={routeId}
                 isDarkMode={isDarkMode}
+                disabled={isNightTube && !NIGHT_TUBE_ROUTES.includes(routeId)}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -113,6 +122,7 @@ const Keyboard = (props) => {
                 id={routeId}
                 key={routeId}
                 isDarkMode={isDarkMode}
+                disabled={isNightTube && !NIGHT_TUBE_ROUTES.includes(routeId)}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
@@ -135,6 +145,7 @@ const Keyboard = (props) => {
                 id={routeId}
                 key={routeId}
                 isDarkMode={isDarkMode}
+                disabled={isNightTube && !NIGHT_TUBE_ROUTES.includes(routeId)}
                 onClick={onChar}
                 isCorrect={correctRoutes.includes(routeId)}
                 isPresent={presentRoutes.includes(routeId)}
