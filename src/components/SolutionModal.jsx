@@ -5,6 +5,7 @@ import { useTranslation, Trans } from 'react-i18next';
 import Stats from './Stats';
 import TrainLabel from './TrainLabel';
 import MapFrame from './MapFrame';
+import Countdown from './Countdown';
 
 import { todaysTrip, todaysSolution } from '../utils/answerValidations';
 import { shareStatus } from '../utils/share';
@@ -91,6 +92,7 @@ const SolutionModal = (props) => {
             })
           }
           <Stats isDarkMode={isDarkMode}  stats={stats} />
+          <Countdown />
           <Button positive icon labelPosition='right' onClick={handleShareClick} className='share-btn'>
             { isShareButtonShowCopied ? t('solution.copied') : t('solution.share') }
             <Icon name={isShareButtonShowCopied ? 'check' : 'share alternate'} />

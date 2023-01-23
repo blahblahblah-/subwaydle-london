@@ -48,6 +48,7 @@ i18n
             direction: "from {{origin}} to {{destination}}",
             share: "Share",
             copied: "Copied",
+            countdown: "Next Roundle in",
           },
           about: {
             title: "How to Play",
