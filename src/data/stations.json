@@ -49,14 +49,6 @@
     "latitude": 51.5168865,
     "longitude": -0.267689948,
     "stops": {
-      "Elizabeth-2": {
-        "latitude": 51.517243,
-        "longitude": -0.2667125
-      },
-      "Elizabeth-3": {
-        "latitude": 51.517243,
-        "longitude": -0.2667125
-      },
       "Elizabeth-4": {
         "latitude": 51.517243,
         "longitude": -0.2667125
@@ -885,6 +877,22 @@
         "latitude": 51.5142236,
         "longitude": -0.1499115
       },
+      "Elizabeth-1": {
+        "latitude": 51.5130997,
+        "longitude": -0.1497194
+      },
+      "Elizabeth-2": {
+        "latitude": 51.5130997,
+        "longitude": -0.1497194
+      },
+      "Elizabeth-3": {
+        "latitude": 51.5130997,
+        "longitude": -0.1497194
+      },
+      "Elizabeth-4": {
+        "latitude": 51.5130997,
+        "longitude": -0.1497194
+      },
       "Jubilee": {
         "latitude": 51.5140922,
         "longitude": -0.1490095
@@ -1189,7 +1197,11 @@
     "latitude": 51.52350399,
     "longitude": -0.6463882083,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
+        "latitude": 51.5232774,
+        "longitude": -0.6465183
+      },
+      "Elizabeth-3": {
         "latitude": 51.5232774,
         "longitude": -0.6465183
       }
@@ -2312,6 +2324,10 @@
       "District-1": {
         "latitude": 51.5151996,
         "longitude": -0.3015676
+      },
+      "Elizabeth-1": {
+        "latitude": 51.514777,
+        "longitude": -0.3015578
       },
       "Elizabeth-2": {
         "latitude": 51.514777,
@@ -3637,14 +3653,6 @@
     "latitude": 51.51218541,
     "longitude": -0.3380518778,
     "stops": {
-      "Elizabeth-2": {
-        "latitude": 51.5118688,
-        "longitude": -0.3380182
-      },
-      "Elizabeth-3": {
-        "latitude": 51.5118688,
-        "longitude": -0.3380182
-      },
       "Elizabeth-4": {
         "latitude": 51.5118688,
         "longitude": -0.3380182
@@ -3793,6 +3801,10 @@
     "latitude": 51.50304839,
     "longitude": -0.4206418933,
     "stops": {
+      "Elizabeth-1": {
+        "latitude": 51.5030241,
+        "longitude": -0.4204657
+      },
       "Elizabeth-2": {
         "latitude": 51.5030241,
         "longitude": -0.4204657
@@ -3825,7 +3837,7 @@
     "latitude": 51.4597797,
     "longitude": -0.4477295783,
     "stops": {
-      "Elizabeth-2": {
+      "Elizabeth-4": {
         "latitude": 51.4578967,
         "longitude": -0.4479787
       },
@@ -3841,7 +3853,7 @@
     "latitude": 51.47002462,
     "longitude": -0.4906474891,
     "stops": {
-      "Elizabeth-3": {
+      "Elizabeth-1": {
         "latitude": 51.4721177,
         "longitude": -0.4877252
       },
@@ -3857,11 +3869,11 @@
     "latitude": 51.47128866,
     "longitude": -0.4524072136,
     "stops": {
-      "Elizabeth-2": {
+      "Elizabeth-1": {
         "latitude": 51.4728378,
         "longitude": -0.4516641
       },
-      "Elizabeth-3": {
+      "Elizabeth-4": {
         "latitude": 51.4728378,
         "longitude": -0.4516641
       },
@@ -4325,7 +4337,7 @@
     "latitude": 51.5085013,
     "longitude": -0.5067404189,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-3": {
         "latitude": 51.5086461,
         "longitude": -0.5068466
       }
@@ -4761,9 +4773,13 @@
     "latitude": 51.50806077,
     "longitude": -0.5417705561,
     "stops": {
-      "Elizabeth-4": {
-        "latitude": 51.5079145,
-        "longitude": -0.5420687
+      "Elizabeth-2": {
+        "latitude": 51.5079053,
+        "longitude": -0.5420721
+      },
+      "Elizabeth-3": {
+        "latitude": 51.5079053,
+        "longitude": -0.5420721
       }
     }
   },
@@ -5093,7 +5109,11 @@
     "latitude": 51.51866743,
     "longitude": -0.7226749106,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
+        "latitude": 51.5185032,
+        "longitude": -0.7222932
+      },
+      "Elizabeth-3": {
         "latitude": 51.5185032,
         "longitude": -0.7222932
       }
@@ -6461,7 +6481,7 @@
     "latitude": 51.45878457,
     "longitude": -0.971877621,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
         "latitude": 51.4594838,
         "longitude": -0.9718118
       }
@@ -6953,7 +6973,11 @@
     "latitude": 51.51187888,
     "longitude": -0.5915248253,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
+        "latitude": 51.5122547,
+        "longitude": -0.5919076
+      },
+      "Elizabeth-3": {
         "latitude": 51.5122547,
         "longitude": -0.5919076
       }
@@ -7749,7 +7773,7 @@
     "latitude": 51.52356084,
     "longitude": -0.6813848514,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
         "latitude": 51.5234477,
         "longitude": -0.6815057
       }
@@ -8113,7 +8137,7 @@
     "latitude": 51.47553253,
     "longitude": -0.863306993,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
         "latitude": 51.4752397,
         "longitude": -0.8637746
       }
@@ -8633,7 +8657,11 @@
     "latitude": 51.51007045,
     "longitude": -0.4721760839,
     "stops": {
-      "Elizabeth-4": {
+      "Elizabeth-2": {
+        "latitude": 51.509838,
+        "longitude": -0.4719928
+      },
+      "Elizabeth-3": {
         "latitude": 51.509838,
         "longitude": -0.4719928
       }
@@ -8653,16 +8681,12 @@
     "latitude": 51.51362468,
     "longitude": -0.3197829487,
     "stops": {
-      "Elizabeth-2": {
-        "latitude": 51.5135845,
-        "longitude": -0.3198527
-      },
-      "Elizabeth-3": {
-        "latitude": 51.5135845,
+      "Elizabeth-1": {
+        "latitude": 51.5135799,
         "longitude": -0.3198527
       },
       "Elizabeth-4": {
-        "latitude": 51.5135845,
+        "latitude": 51.5135799,
         "longitude": -0.3198527
       }
     }
