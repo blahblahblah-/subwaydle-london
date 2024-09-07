@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
+import maplibregl from '!maplibre-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 
 import { todaysTrip, todaysSolution } from '../utils/answerValidations';
 
@@ -8,8 +8,6 @@ import routes from "../data/routes.json";
 import shapes from "../data/shapes.json";
 
 import './MapFrame.scss';
-
-mapboxgl.accessToken = process.env.REACT_APP_MAPBOX_TOKEN;
 
 const linesWithMultipleRoutes = {
   "Central": 3,
@@ -101,9 +99,9 @@ const MapFrame = (props) => {
 
   useEffect(() => {
     if (map.current) return; // initialize map only once
-    map.current = new mapboxgl.Map({
+    map.current = new maplibregl.Map({
       container: mapContainer.current,
-      style: 'mapbox://styles/theweekendest/ck1fhati848311cp6ezdzj5cm?optimize=true',
+      style: 'https://tiles.stadiamaps.com/styles/alidade_smooth_dark.json',
       center: [lng, lat],
       minZoom: 9,
       zoom: zoom,
@@ -184,7 +182,7 @@ const MapFrame = (props) => {
       });
       const bounds = coordinates.reduce((bounds, coord) => {
         return bounds.extend(coord);
-      }, new mapboxgl.LngLatBounds(coordinates[0], coordinates[0]));
+      }, new maplibregl.LngLatBounds(coordinates[0], coordinates[0]));
 
       if (!bounds.isEmpty()) {
         map.current.fitBounds(bounds, {
