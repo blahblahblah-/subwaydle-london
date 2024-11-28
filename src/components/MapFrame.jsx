@@ -15,9 +15,11 @@ const linesWithMultipleRoutes = {
   "DLR": 5,
   "Elizabeth": 5,
   "Metropolitan": 4,
+  "Mildmay": 2,
   "Northern": 6,
-  "Overground": 11,
   "Piccadilly": 3,
+  "Weaver": 3,
+  "Windrush": 4,
 }
 
 const MapFrame = (props) => {

@@ -5,24 +5,29 @@ import Key from './Key';
 import './Keyboard.scss';
 
 const KEYBOARD_MAPPING = {
+  "A": "Weaver",
   "B": "Bakerloo",
   "C": "Central",
-  "I": "Circle",
   "D": "District",
-  "L": "DLR",
   "E": "Elizabeth",
   "H": "Hammersmith",
+  "I": "Circle",
   "J": "Jubilee",
+  "L": "DLR",
   "M": "Metropolitan",
   "N": "Northern",
-  "O": "Overground",
+  "O": "Lioness",
   "P": "Piccadilly",
+  "R": "Windrush",
+  "S": "Suffragette",
+  "T": "Liberty",
   "V": "Victoria",
   "W": "Waterloo",
+  "Y": "Mildmay",
 }
 
 const NIGHT_TUBE_ROUTES = [
-  "Central", "Jubilee", "Northern", "Piccadilly", "Victoria", "Overground"
+  "Central", "Jubilee", "Northern", "Piccadilly", "Victoria", "Windrush"
 ];
 
 const Keyboard = (props) => {
@@ -59,10 +64,10 @@ const Keyboard = (props) => {
 
 
   return (
-    <Grid centered columns={3} className='keyboard'>
+    <Grid centered columns={4} className='keyboard'>
       <Grid.Row>
         {
-          ["Bakerloo", "Central", "Circle"].map((routeId) => {
+          ["Bakerloo", "Central", "Circle", "District"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -78,9 +83,27 @@ const Keyboard = (props) => {
           })
         }
       </Grid.Row>
-      <Grid.Row>
+      <Grid.Row columns={2}>
         {
-          ["District", "Hammersmith", "Jubilee"].map((routeId) => {
+          ["Hammersmith", "Waterloo"].map((routeId) => {
+            return (
+              <Key
+                id={routeId}
+                key={routeId}
+                isDarkMode={isDarkMode}
+                disabled={isNightTube && !NIGHT_TUBE_ROUTES.includes(routeId)}
+                onClick={onChar}
+                isCorrect={correctRoutes.includes(routeId)}
+                isPresent={presentRoutes.includes(routeId)}
+                isAbsent={absentRoutes.includes(routeId)}
+              />
+            )
+          })
+        }
+        </Grid.Row>
+        <Grid.Row columns={3}>
+        {
+          ["Jubilee", "Metropolitan", "Northern"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -98,7 +121,7 @@ const Keyboard = (props) => {
         </Grid.Row>
         <Grid.Row>
         {
-          ["Metropolitan", "Northern", "Piccadilly"].map((routeId) => {
+          ["Piccadilly", "Victoria", "Liberty", "Lioness"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -114,9 +137,9 @@ const Keyboard = (props) => {
           })
         }
         </Grid.Row>
-        <Grid.Row>
+        <Grid.Row columns={4}>
         {
-          ["Victoria", "Waterloo", "Elizabeth"].map((routeId) => {
+          ["Mildmay", "Suffragette", "Weaver", "Windrush"].map((routeId) => {
             return (
               <Key
                 id={routeId}
@@ -139,7 +162,7 @@ const Keyboard = (props) => {
             </Button>
           </Grid.Column>
         {
-          ["DLR", "Overground"].map((routeId) => {
+          ["DLR", "Elizabeth"].map((routeId) => {
             return (
               <Key
                 id={routeId}

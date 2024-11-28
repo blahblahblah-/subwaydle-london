@@ -37,7 +37,7 @@
     "latitude": 51.50875735,
     "longitude": -0.2634301953,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5087091,
         "longitude": -0.2628326
       }
@@ -85,7 +85,7 @@
     "latitude": 51.35623854,
     "longitude": -0.03266510033,
     "stops": {
-}
+    }
   },
   "7": {
     "id": "7",
@@ -93,7 +93,7 @@
     "latitude": 51.37980817,
     "longitude": -0.07321328252,
     "stops": {
-}
+    }
   },
   "8": {
     "id": "8",
@@ -101,7 +101,7 @@
     "latitude": 51.43581582,
     "longitude": 0.1264446387,
     "stops": {
-}
+    }
   },
   "9": {
     "id": "9",
@@ -157,7 +157,7 @@
     "latitude": 51.59826263,
     "longitude": -0.1201489714,
     "stops": {
-}
+    }
   },
   "12": {
     "id": "12",
@@ -201,7 +201,7 @@
     "latitude": 51.38229922,
     "longitude": -0.1236367985,
     "stops": {
-}
+    }
   },
   "16": {
     "id": "16",
@@ -209,7 +209,7 @@
     "latitude": 51.41251661,
     "longitude": -0.06513709988,
     "stops": {
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4122641,
         "longitude": -0.065798
       }
@@ -241,7 +241,7 @@
     "latitude": 51.61242024,
     "longitude": -0.04873291924,
     "stops": {
-}
+    }
   },
   "19": {
     "id": "19",
@@ -273,7 +273,7 @@
     "latitude": 51.39152266,
     "longitude": -0.05831854989,
     "stops": {
-}
+    }
   },
   "21": {
     "id": "21",
@@ -321,7 +321,7 @@
     "latitude": 51.4067979,
     "longitude": -0.04944693697,
     "stops": {
-}
+    }
   },
   "24": {
     "id": "24",
@@ -429,7 +429,7 @@
     "latitude": 51.32929278,
     "longitude": -0.2131323335,
     "stops": {
-}
+    }
   },
   "28": {
     "id": "28",
@@ -480,6 +480,10 @@
       "Hammersmith": {
         "latitude": 51.5402563,
         "longitude": 0.0797733
+      },
+      "Suffragette": {
+        "latitude": 51.539392,
+        "longitude": 0.080543
       }
     }
   },
@@ -501,7 +505,7 @@
     "latitude": 51.46478055,
     "longitude": 0.1609480239,
     "stops": {
-}
+    }
   },
   "32": {
     "id": "32",
@@ -509,7 +513,7 @@
     "latitude": 51.46712738,
     "longitude": -0.2420330586,
     "stops": {
-}
+    }
   },
   "33": {
     "id": "33",
@@ -517,7 +521,7 @@
     "latitude": 51.47222764,
     "longitude": -0.2523626133,
     "stops": {
-}
+    }
   },
   "34": {
     "id": "34",
@@ -553,7 +557,7 @@
     "latitude": 51.47731808,
     "longitude": -0.1481237604,
     "stops": {
-}
+    }
   },
   "36": {
     "id": "36",
@@ -593,7 +597,7 @@
     "latitude": 51.42462603,
     "longitude": -0.01649576197,
     "stops": {
-}
+    }
   },
   "39": {
     "id": "39",
@@ -601,7 +605,7 @@
     "latitude": 51.4109416,
     "longitude": -0.02570173911,
     "stops": {
-}
+    }
   },
   "40": {
     "id": "40",
@@ -609,7 +613,7 @@
     "latitude": 51.40952968,
     "longitude": -0.04339192197,
     "stops": {
-}
+    }
   },
   "41": {
     "id": "41",
@@ -657,7 +661,7 @@
     "latitude": 51.38923965,
     "longitude": -0.1421384332,
     "stops": {
-}
+    }
   },
   "45": {
     "id": "45",
@@ -665,7 +669,7 @@
     "latitude": 51.40096136,
     "longitude": -0.1784964722,
     "stops": {
-}
+    }
   },
   "46": {
     "id": "46",
@@ -673,7 +677,7 @@
     "latitude": 51.43386486,
     "longitude": -0.02041177029,
     "stops": {
-}
+    }
   },
   "47": {
     "id": "47",
@@ -681,7 +685,7 @@
     "latitude": 51.3441196,
     "longitude": -0.1994892509,
     "stops": {
-}
+    }
   },
   "48": {
     "id": "48",
@@ -705,7 +709,7 @@
     "latitude": 51.49195925,
     "longitude": 0.1520337933,
     "stops": {
-}
+    }
   },
   "50": {
     "id": "50",
@@ -725,7 +729,7 @@
     "latitude": 51.39876795,
     "longitude": -0.2803214729,
     "stops": {
-}
+    }
   },
   "52": {
     "id": "52",
@@ -741,15 +745,15 @@
         "latitude": 51.5271831,
         "longitude": -0.0553435
       },
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.5271447,
         "longitude": -0.0561913
       },
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5273295,
         "longitude": -0.0563197
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5273295,
         "longitude": -0.0563197
       }
@@ -761,7 +765,7 @@
     "latitude": 51.52428264,
     "longitude": -0.0600137424,
     "stops": {
-}
+    }
   },
   "54": {
     "id": "54",
@@ -769,7 +773,7 @@
     "latitude": 51.44081478,
     "longitude": 0.1482039143,
     "stops": {
-}
+    }
   },
   "55": {
     "id": "55",
@@ -777,7 +781,7 @@
     "latitude": 51.46355018,
     "longitude": 0.1333629661,
     "stops": {
-}
+    }
   },
   "56": {
     "id": "56",
@@ -785,7 +789,7 @@
     "latitude": 51.40037964,
     "longitude": 0.0443040317,
     "stops": {
-}
+    }
   },
   "57": {
     "id": "57",
@@ -793,7 +797,7 @@
     "latitude": 51.403863,
     "longitude": -0.05628623554,
     "stops": {
-}
+    }
   },
   "58": {
     "id": "58",
@@ -825,7 +829,7 @@
     "latitude": 51.46540803,
     "longitude": 0.008336594713,
     "stops": {
-}
+    }
   },
   "60": {
     "id": "60",
@@ -833,7 +837,7 @@
     "latitude": 51.38474607,
     "longitude": -0.07053394761,
     "stops": {
-}
+    }
   },
   "61": {
     "id": "61",
@@ -841,6 +845,10 @@
     "latitude": 51.58577656,
     "longitude": -0.03962571147,
     "stops": {
+      "Suffragette": {
+        "latitude": 51.586598,
+        "longitude": -0.039873
+      },
       "Victoria": {
         "latitude": 51.5866592,
         "longitude": -0.039829
@@ -1009,7 +1017,7 @@
     "latitude": 51.60724932,
     "longitude": -0.1197922183,
     "stops": {
-}
+    }
   },
   "70": {
     "id": "70",
@@ -1033,7 +1041,7 @@
     "latitude": 51.4875358,
     "longitude": -0.3096225311,
     "stops": {
-}
+    }
   },
   "72": {
     "id": "72",
@@ -1053,7 +1061,7 @@
     "latitude": 51.65524457,
     "longitude": -0.03109227689,
     "stops": {
-}
+    }
   },
   "74": {
     "id": "74",
@@ -1073,11 +1081,11 @@
     "latitude": 51.4647496,
     "longitude": -0.03774825047,
     "stops": {
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4646382,
         "longitude": -0.0374688
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4646382,
         "longitude": -0.0374688
       }
@@ -1089,7 +1097,7 @@
     "latitude": 51.40894234,
     "longitude": 0.01723545196,
     "stops": {
-}
+    }
   },
   "77": {
     "id": "77",
@@ -1097,7 +1105,7 @@
     "latitude": 51.40000132,
     "longitude": 0.0173595805,
     "stops": {
-}
+    }
   },
   "78": {
     "id": "78",
@@ -1129,11 +1137,11 @@
     "latitude": 51.54526203,
     "longitude": -0.2028384833,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5449835,
         "longitude": -0.2028283
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5449835,
         "longitude": -0.2028283
       }
@@ -1145,11 +1153,11 @@
     "latitude": 51.54032502,
     "longitude": -0.2104739441,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.540099,
         "longitude": -0.2108459
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.540099,
         "longitude": -0.2108459
       }
@@ -1161,7 +1169,7 @@
     "latitude": 51.74701555,
     "longitude": -0.01102408378,
     "stops": {
-}
+    }
   },
   "82": {
     "id": "82",
@@ -1169,11 +1177,11 @@
     "latitude": 51.59401113,
     "longitude": -0.07039898936,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5937128,
         "longitude": -0.0700342
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5937128,
         "longitude": -0.0700342
       }
@@ -1229,7 +1237,7 @@
     "latitude": 51.64148185,
     "longitude": -0.06928041223,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.6411672,
         "longitude": -0.0689747
       }
@@ -1241,7 +1249,7 @@
     "latitude": 51.64554353,
     "longitude": -0.3847215327,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.6455781,
         "longitude": -0.3851429
       }
@@ -1273,11 +1281,11 @@
     "latitude": 51.54328439,
     "longitude": -0.1152048559,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5435583,
         "longitude": -0.1151943
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5435583,
         "longitude": -0.1151943
       }
@@ -1289,11 +1297,11 @@
     "latitude": 51.53205967,
     "longitude": -0.05720320064,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5319644,
         "longitude": -0.0574506
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5319644,
         "longitude": -0.0574506
       }
@@ -1305,11 +1313,11 @@
     "latitude": 51.54185101,
     "longitude": -0.1392031114,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5419396,
         "longitude": -0.1392847
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5419396,
         "longitude": -0.1392847
       }
@@ -1357,19 +1365,19 @@
         "latitude": 51.4979264,
         "longitude": -0.0507951
       },
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.4983346,
         "longitude": -0.0501532
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4983346,
         "longitude": -0.0501532
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4983346,
         "longitude": -0.0501532
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4983346,
         "longitude": -0.0501532
       }
@@ -1461,19 +1469,19 @@
     "latitude": 51.54818824,
     "longitude": -0.09257419533,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5486909,
         "longitude": -0.092697
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5486909,
         "longitude": -0.092697
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5485437,
         "longitude": -0.0925716
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5485437,
         "longitude": -0.0925716
       }
@@ -1497,7 +1505,7 @@
     "latitude": 51.62818609,
     "longitude": -0.3858293151,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.6284037,
         "longitude": -0.3856637
       }
@@ -1509,7 +1517,7 @@
     "latitude": 51.3684261,
     "longitude": -0.1663983264,
     "stops": {
-}
+    }
   },
   "101": {
     "id": "101",
@@ -1517,7 +1525,7 @@
     "latitude": 51.35738657,
     "longitude": -0.1694963245,
     "stops": {
-}
+    }
   },
   "102": {
     "id": "102",
@@ -1525,7 +1533,7 @@
     "latitude": 51.52297312,
     "longitude": -0.3315040699,
     "stops": {
-}
+    }
   },
   "103": {
     "id": "103",
@@ -1533,7 +1541,7 @@
     "latitude": 51.2821627,
     "longitude": -0.07860729821,
     "stops": {
-}
+    }
   },
   "104": {
     "id": "104",
@@ -1541,7 +1549,7 @@
     "latitude": 51.44426487,
     "longitude": -0.02653849856,
     "stops": {
-}
+    }
   },
   "105": {
     "id": "105",
@@ -1549,7 +1557,7 @@
     "latitude": 51.44469459,
     "longitude": -0.02482187591,
     "stops": {
-}
+    }
   },
   "106": {
     "id": "106",
@@ -1557,7 +1565,7 @@
     "latitude": 51.3757673,
     "longitude": -0.1038881032,
     "stops": {
-}
+    }
   },
   "107": {
     "id": "107",
@@ -1577,7 +1585,7 @@
     "latitude": 51.48555497,
     "longitude": 0.2874757055,
     "stops": {
-}
+    }
   },
   "109": {
     "id": "109",
@@ -1657,7 +1665,7 @@
     "latitude": 51.48683504,
     "longitude": 0.03094164486,
     "stops": {
-}
+    }
   },
   "114": {
     "id": "114",
@@ -1665,7 +1673,7 @@
     "latitude": 51.35545989,
     "longitude": -0.2142112809,
     "stops": {
-}
+    }
   },
   "115": {
     "id": "115",
@@ -1673,7 +1681,7 @@
     "latitude": 51.35626476,
     "longitude": 0.1089841204,
     "stops": {
-}
+    }
   },
   "116": {
     "id": "116",
@@ -1693,7 +1701,7 @@
     "latitude": 51.70287328,
     "longitude": -0.02388741543,
     "stops": {
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.7028705,
         "longitude": -0.0239747
       }
@@ -1705,7 +1713,7 @@
     "latitude": 51.36424295,
     "longitude": -0.3004761236,
     "stops": {
-}
+    }
   },
   "119": {
     "id": "119",
@@ -1713,7 +1721,7 @@
     "latitude": 51.35670403,
     "longitude": -0.3070890152,
     "stops": {
-}
+    }
   },
   "120": {
     "id": "120",
@@ -1733,7 +1741,7 @@
     "latitude": 51.63325339,
     "longitude": 0.009514325531,
     "stops": {
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.633113,
         "longitude": 0.0100258
       }
@@ -1745,7 +1753,7 @@
     "latitude": 51.30927471,
     "longitude": -0.1694458678,
     "stops": {
-}
+    }
   },
   "123": {
     "id": "123",
@@ -1753,7 +1761,7 @@
     "latitude": 51.40559851,
     "longitude": 0.05749182165,
     "stops": {
-}
+    }
   },
   "124": {
     "id": "124",
@@ -1761,7 +1769,7 @@
     "latitude": 51.48078106,
     "longitude": -0.2670133177,
     "stops": {
-}
+    }
   },
   "125": {
     "id": "125",
@@ -1797,7 +1805,7 @@
     "latitude": 51.37370639,
     "longitude": -0.1043468283,
     "stops": {
-}
+    }
   },
   "128": {
     "id": "128",
@@ -1805,7 +1813,7 @@
     "latitude": 51.5139349,
     "longitude": -0.1036184486,
     "stops": {
-}
+    }
   },
   "129": {
     "id": "129",
@@ -1833,7 +1841,7 @@
     "latitude": 51.4654693,
     "longitude": -0.1324645016,
     "stops": {
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4656351,
         "longitude": -0.1326021
       }
@@ -1845,11 +1853,11 @@
     "latitude": 51.46436651,
     "longitude": -0.1703150005,
     "stops": {
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.4651835,
         "longitude": -0.170622
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4651835,
         "longitude": -0.1705025
       }
@@ -1901,7 +1909,7 @@
     "latitude": 51.561569,
     "longitude": -0.05748945827,
     "stops": {
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.5613307,
         "longitude": -0.0573004
       }
@@ -1913,7 +1921,7 @@
     "latitude": 51.4085405,
     "longitude": -0.0407020925,
     "stops": {
-}
+    }
   },
   "136": {
     "id": "136",
@@ -1977,7 +1985,7 @@
     "latitude": 51.35978921,
     "longitude": -0.05953157112,
     "stops": {
-}
+    }
   },
   "140": {
     "id": "140",
@@ -1985,7 +1993,7 @@
     "latitude": 51.31580072,
     "longitude": -0.1379030892,
     "stops": {
-}
+    }
   },
   "141": {
     "id": "141",
@@ -1993,7 +2001,7 @@
     "latitude": 51.32245274,
     "longitude": -0.1343470562,
     "stops": {
-}
+    }
   },
   "142": {
     "id": "142",
@@ -2021,7 +2029,7 @@
     "latitude": 51.44854705,
     "longitude": 0.1785027182,
     "stops": {
-}
+    }
   },
   "144": {
     "id": "144",
@@ -2029,7 +2037,7 @@
     "latitude": 51.68447444,
     "longitude": -0.1068441001,
     "stops": {
-}
+    }
   },
   "145": {
     "id": "145",
@@ -2037,7 +2045,7 @@
     "latitude": 51.55842232,
     "longitude": -0.2125479315,
     "stops": {
-}
+    }
   },
   "146": {
     "id": "146",
@@ -2045,7 +2053,7 @@
     "latitude": 51.45517924,
     "longitude": -0.03654658176,
     "stops": {
-}
+    }
   },
   "147": {
     "id": "147",
@@ -2065,7 +2073,11 @@
     "latitude": 51.57132691,
     "longitude": -0.1171332841,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.571262,
+        "longitude": -0.117175
+      }
+    }
   },
   "149": {
     "id": "149",
@@ -2085,7 +2097,7 @@
     "latitude": 51.41817024,
     "longitude": -0.07260723246,
     "stops": {
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4178511,
         "longitude": -0.0719441
       }
@@ -2145,7 +2157,7 @@
     "latitude": 51.52628744,
     "longitude": 0.1450310153,
     "stops": {
-}
+    }
   },
   "155": {
     "id": "155",
@@ -2185,19 +2197,19 @@
     "latitude": 51.5460936,
     "longitude": -0.0749942045,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5459433,
         "longitude": -0.0750532
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.545941,
         "longitude": -0.0749902
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5461354,
         "longitude": -0.0749078
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5461354,
         "longitude": -0.0749078
       }
@@ -2209,11 +2221,11 @@
     "latitude": 51.5486677,
     "longitude": -0.07622692162,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5481864,
         "longitude": -0.075816
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5481864,
         "longitude": -0.075816
       }
@@ -2237,7 +2249,7 @@
     "latitude": 51.46820049,
     "longitude": -0.0909878691,
     "stops": {
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4675934,
         "longitude": -0.0909201
       }
@@ -2249,7 +2261,7 @@
     "latitude": 51.47889004,
     "longitude": -0.02619631953,
     "stops": {
-}
+    }
   },
   "162": {
     "id": "162",
@@ -2293,7 +2305,7 @@
     "latitude": 51.51600414,
     "longitude": -0.3296112534,
     "stops": {
-}
+    }
   },
   "166": {
     "id": "166",
@@ -2301,7 +2313,7 @@
     "latitude": 51.55307814,
     "longitude": -0.1057701991,
     "stops": {
-}
+    }
   },
   "167": {
     "id": "167",
@@ -2309,7 +2321,7 @@
     "latitude": 51.41739781,
     "longitude": -0.2075271102,
     "stops": {
-}
+    }
   },
   "168": {
     "id": "168",
@@ -2401,7 +2413,7 @@
     "latitude": 51.4422385,
     "longitude": -0.1872726865,
     "stops": {
-}
+    }
   },
   "172": {
     "id": "172",
@@ -2425,7 +2437,7 @@
     "latitude": 51.37571595,
     "longitude": -0.09186349554,
     "stops": {
-}
+    }
   },
   "174": {
     "id": "174",
@@ -2433,7 +2445,7 @@
     "latitude": 51.46162545,
     "longitude": -0.08043657113,
     "stops": {
-}
+    }
   },
   "175": {
     "id": "175",
@@ -2537,7 +2549,7 @@
     "latitude": 51.39079606,
     "longitude": -0.02666971551,
     "stops": {
-}
+    }
   },
   "181": {
     "id": "181",
@@ -2593,11 +2605,11 @@
     "latitude": 51.6251156,
     "longitude": -0.06163901924,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.6249722,
         "longitude": -0.0612434
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.6249722,
         "longitude": -0.0612434
       }
@@ -2649,7 +2661,7 @@
     "latitude": 51.39829103,
     "longitude": -0.04946383214,
     "stops": {
-}
+    }
   },
   "188": {
     "id": "188",
@@ -2657,7 +2669,7 @@
     "latitude": 51.41708071,
     "longitude": 0.04422934284,
     "stops": {
-}
+    }
   },
   "189": {
     "id": "189",
@@ -2665,7 +2677,7 @@
     "latitude": 51.65287512,
     "longitude": -0.2798286149,
     "stops": {
-}
+    }
   },
   "190": {
     "id": "190",
@@ -2673,7 +2685,7 @@
     "latitude": 51.45566231,
     "longitude": 0.0523293079,
     "stops": {
-}
+    }
   },
   "191": {
     "id": "191",
@@ -2733,7 +2745,7 @@
     "latitude": 51.56911527,
     "longitude": 0.2202229372,
     "stops": {
-      "Overground-2": {
+      "Liberty": {
         "latitude": 51.5687063,
         "longitude": 0.2199455
       }
@@ -2745,7 +2757,7 @@
     "latitude": 51.65272197,
     "longitude": -0.09070420501,
     "stops": {
-}
+    }
   },
   "195": {
     "id": "195",
@@ -2753,7 +2765,7 @@
     "latitude": 51.67084608,
     "longitude": -0.02839107006,
     "stops": {
-}
+    }
   },
   "196": {
     "id": "196",
@@ -2761,7 +2773,7 @@
     "latitude": 51.65196995,
     "longitude": -0.07932992173,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.6518863,
         "longitude": -0.0792163
       }
@@ -2785,7 +2797,7 @@
     "latitude": 51.32365905,
     "longitude": -0.2389702235,
     "stops": {
-}
+    }
   },
   "199": {
     "id": "199",
@@ -2793,7 +2805,7 @@
     "latitude": 51.48164796,
     "longitude": 0.174261291,
     "stops": {
-}
+    }
   },
   "200": {
     "id": "200",
@@ -2801,7 +2813,7 @@
     "latitude": 51.54063316,
     "longitude": -0.09636552536,
     "stops": {
-}
+    }
   },
   "201": {
     "id": "201",
@@ -2809,6 +2821,10 @@
     "latitude": 51.52866411,
     "longitude": -0.1332964708,
     "stops": {
+      "Lioness": {
+        "latitude": 51.5287235,
+        "longitude": -0.1342411
+      },
       "Northern-1": {
         "latitude": 51.5280303,
         "longitude": -0.1331245
@@ -2832,10 +2848,6 @@
       "Northern-6": {
         "latitude": 51.5288297,
         "longitude": -0.1340017
-      },
-      "Overground-3": {
-        "latitude": 51.5287235,
-        "longitude": -0.1342411
       },
       "Victoria": {
         "latitude": 51.5282945,
@@ -2877,7 +2889,7 @@
     "latitude": 51.34524348,
     "longitude": -0.241502998,
     "stops": {
-}
+    }
   },
   "204": {
     "id": "204",
@@ -2885,7 +2897,7 @@
     "latitude": 51.34999072,
     "longitude": -0.2570891292,
     "stops": {
-}
+    }
   },
   "205": {
     "id": "205",
@@ -2905,7 +2917,7 @@
     "latitude": 51.45908593,
     "longitude": 0.07850969338,
     "stops": {
-}
+    }
   },
   "207": {
     "id": "207",
@@ -2957,7 +2969,7 @@
     "latitude": 51.4478785,
     "longitude": -0.4098244712,
     "stops": {
-}
+    }
   },
   "209": {
     "id": "209",
@@ -2965,7 +2977,7 @@
     "latitude": 51.51156658,
     "longitude": -0.07855415245,
     "stops": {
-}
+    }
   },
   "210": {
     "id": "210",
@@ -2973,7 +2985,7 @@
     "latitude": 51.35131697,
     "longitude": -0.02450326533,
     "stops": {
-}
+    }
   },
   "211": {
     "id": "211",
@@ -3033,11 +3045,11 @@
     "latitude": 51.5501192,
     "longitude": -0.1836512007,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5501957,
         "longitude": -0.1833506
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5501957,
         "longitude": -0.1833506
       }
@@ -3085,11 +3097,11 @@
     "latitude": 51.43930823,
     "longitude": -0.05332850425,
     "stops": {
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4392444,
         "longitude": -0.0529901
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4392444,
         "longitude": -0.0529901
       }
@@ -3117,7 +3129,7 @@
     "latitude": 51.433942,
     "longitude": -0.3494385176,
     "stops": {
-}
+    }
   },
   "219": {
     "id": "219",
@@ -3149,7 +3161,7 @@
     "latitude": 51.3739659,
     "longitude": -0.09871810466,
     "stops": {
-}
+    }
   },
   "222": {
     "id": "222",
@@ -3169,7 +3181,7 @@
     "latitude": 51.42446939,
     "longitude": -0.08383516711,
     "stops": {
-}
+    }
   },
   "224": {
     "id": "224",
@@ -3277,7 +3289,7 @@
     "latitude": 51.66350209,
     "longitude": -0.09447329927,
     "stops": {
-}
+    }
   },
   "230": {
     "id": "230",
@@ -3285,13 +3297,17 @@
     "latitude": 51.55540505,
     "longitude": -0.1513010312,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5553312,
         "longitude": -0.1512024
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5553312,
         "longitude": -0.1512024
+      },
+      "Suffragette": {
+        "latitude": 51.555506,
+        "longitude": -0.151217
       }
     }
   },
@@ -3313,7 +3329,7 @@
     "latitude": 51.64262292,
     "longitude": -0.09731442326,
     "stops": {
-}
+    }
   },
   "233": {
     "id": "233",
@@ -3321,7 +3337,7 @@
     "latitude": 51.35454319,
     "longitude": -0.04312169865,
     "stops": {
-}
+    }
   },
   "234": {
     "id": "234",
@@ -3409,7 +3425,7 @@
     "latitude": 51.43043268,
     "longitude": 0.02259850219,
     "stops": {
-}
+    }
   },
   "239": {
     "id": "239",
@@ -3421,7 +3437,7 @@
         "latitude": 51.4917594,
         "longitude": -0.2750282
       },
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.4918019,
         "longitude": -0.2751392
       }
@@ -3433,7 +3449,7 @@
     "latitude": 51.37786065,
     "longitude": -0.1538791969,
     "stops": {
-}
+    }
   },
   "241": {
     "id": "241",
@@ -3441,11 +3457,11 @@
     "latitude": 51.54725736,
     "longitude": -0.0555895118,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5470903,
         "longitude": -0.0558257
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5470903,
         "longitude": -0.0558257
       }
@@ -3457,15 +3473,15 @@
     "latitude": 51.54907799,
     "longitude": -0.06018510486,
     "stops": {
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.5489119,
         "longitude": -0.0607211
       },
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5488503,
         "longitude": -0.0609527
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5488503,
         "longitude": -0.0609527
       }
@@ -3477,11 +3493,11 @@
     "latitude": 51.54355837,
     "longitude": -0.02525950277,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5433869,
         "longitude": -0.0254005
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5433869,
         "longitude": -0.0254005
       }
@@ -3493,7 +3509,7 @@
     "latitude": 51.66840258,
     "longitude": -0.1765811878,
     "stops": {
-}
+    }
   },
   "245": {
     "id": "245",
@@ -3501,19 +3517,19 @@
     "latitude": 51.53868461,
     "longitude": -0.07559525776,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5385622,
         "longitude": -0.0755655
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.5385622,
         "longitude": -0.0755655
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5385622,
         "longitude": -0.0755655
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5385622,
         "longitude": -0.0755655
       }
@@ -3601,11 +3617,11 @@
     "latitude": 51.55519966,
     "longitude": -0.1645661817,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5554345,
         "longitude": -0.164633
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5554345,
         "longitude": -0.164633
       }
@@ -3617,7 +3633,7 @@
     "latitude": 51.41587894,
     "longitude": -0.3721352457,
     "stops": {
-}
+    }
   },
   "252": {
     "id": "252",
@@ -3625,7 +3641,7 @@
     "latitude": 51.40229332,
     "longitude": -0.3427571453,
     "stops": {
-}
+    }
   },
   "253": {
     "id": "253",
@@ -3633,7 +3649,7 @@
     "latitude": 51.41463953,
     "longitude": -0.3131036039,
     "stops": {
-}
+    }
   },
   "254": {
     "id": "254",
@@ -3669,7 +3685,7 @@
         "latitude": 51.5361968,
         "longitude": -0.2574201
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5361968,
         "longitude": -0.2574201
       }
@@ -3693,7 +3709,7 @@
     "latitude": 51.57735774,
     "longitude": -0.1052082519,
     "stops": {
-}
+    }
   },
   "259": {
     "id": "259",
@@ -3701,7 +3717,11 @@
     "latitude": 51.57714573,
     "longitude": -0.09821739122,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.577119,
+        "longitude": -0.098283
+      }
+    }
   },
   "260": {
     "id": "260",
@@ -3709,7 +3729,7 @@
     "latitude": 51.39979047,
     "longitude": -0.06069995435,
     "stops": {
-}
+    }
   },
   "261": {
     "id": "261",
@@ -3721,7 +3741,7 @@
         "latitude": 51.5918227,
         "longitude": -0.3343768
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5919519,
         "longitude": -0.3346435
       }
@@ -3757,7 +3777,7 @@
     "latitude": 51.6098279,
     "longitude": -0.369178773,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.6099704,
         "longitude": -0.3692624
       }
@@ -3785,7 +3805,7 @@
     "latitude": 51.42545701,
     "longitude": -0.1889293573,
     "stops": {
-}
+    }
   },
   "266": {
     "id": "266",
@@ -3793,7 +3813,7 @@
     "latitude": 51.37573673,
     "longitude": 0.01014265247,
     "stops": {
-}
+    }
   },
   "267": {
     "id": "267",
@@ -3825,7 +3845,7 @@
     "latitude": 51.60249904,
     "longitude": -0.356907507,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.6024487,
         "longitude": -0.356697
       }
@@ -3893,7 +3913,7 @@
     "latitude": 51.5800746,
     "longitude": -0.2386305173,
     "stops": {
-}
+    }
   },
   "273": {
     "id": "273",
@@ -3917,7 +3937,7 @@
     "latitude": 51.4539912,
     "longitude": -0.1025629077,
     "stops": {
-}
+    }
   },
   "275": {
     "id": "275",
@@ -3969,7 +3989,7 @@
     "latitude": 51.608356,
     "longitude": -0.0001352859195,
     "stops": {
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.6082319,
         "longitude": -0.0003237
       }
@@ -3981,25 +4001,25 @@
     "latitude": 51.54649534,
     "longitude": -0.1040821392,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5461557,
         "longitude": -0.1041711
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5461557,
         "longitude": -0.1041711
-      },
-      "Overground-7": {
-        "latitude": 51.5460045,
-        "longitude": -0.1039923
-      },
-      "Overground-8": {
-        "latitude": 51.5460045,
-        "longitude": -0.1039923
       },
       "Victoria": {
         "latitude": 51.5468257,
         "longitude": -0.1032773
+      },
+      "Windrush-3": {
+        "latitude": 51.5460045,
+        "longitude": -0.1039923
+      },
+      "Windrush-4": {
+        "latitude": 51.5460045,
+        "longitude": -0.1039923
       }
     }
   },
@@ -4049,7 +4069,7 @@
     "latitude": 51.45240172,
     "longitude": -0.0009709123245,
     "stops": {
-}
+    }
   },
   "283": {
     "id": "283",
@@ -4121,11 +4141,11 @@
     "latitude": 51.54659539,
     "longitude": -0.03851234702,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.546936,
         "longitude": -0.0385702
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.546936,
         "longitude": -0.0385702
       }
@@ -4137,11 +4157,11 @@
     "latitude": 51.45064817,
     "longitude": -0.04415312103,
     "stops": {
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4508424,
         "longitude": -0.0445726
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4508424,
         "longitude": -0.0445726
       }
@@ -4169,7 +4189,7 @@
     "latitude": 51.58647467,
     "longitude": -0.1118156374,
     "stops": {
-}
+    }
   },
   "290": {
     "id": "290",
@@ -4177,7 +4197,7 @@
     "latitude": 51.46250423,
     "longitude": -0.3617962484,
     "stops": {
-}
+    }
   },
   "291": {
     "id": "291",
@@ -4233,19 +4253,19 @@
     "latitude": 51.53139149,
     "longitude": -0.07558564688,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.531472,
         "longitude": -0.0756251
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.531472,
         "longitude": -0.0756251
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.531472,
         "longitude": -0.0756251
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.531472,
         "longitude": -0.0756251
       }
@@ -4305,7 +4325,7 @@
     "latitude": 51.47493863,
     "longitude": -0.1828375028,
     "stops": {
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.4749628,
         "longitude": -0.1828033
       }
@@ -4329,7 +4349,7 @@
     "latitude": 51.47503687,
     "longitude": -0.3373287585,
     "stops": {
-}
+    }
   },
   "301": {
     "id": "301",
@@ -4349,7 +4369,7 @@
     "latitude": 51.32460015,
     "longitude": -0.1012197122,
     "stops": {
-}
+    }
   },
   "303": {
     "id": "303",
@@ -4393,7 +4413,7 @@
         "latitude": 51.5306106,
         "longitude": -0.2248401
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5306106,
         "longitude": -0.2248401
       }
@@ -4405,11 +4425,11 @@
     "latitude": 51.53421471,
     "longitude": -0.2208209758,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5342914,
         "longitude": -0.2206736
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5342914,
         "longitude": -0.2206736
       }
@@ -4421,7 +4441,7 @@
     "latitude": 51.49787936,
     "longitude": -0.2103792398,
     "stops": {
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.4980499,
         "longitude": -0.2103206
       }
@@ -4433,7 +4453,7 @@
     "latitude": 51.41271759,
     "longitude": -0.04581555306,
     "stops": {
-}
+    }
   },
   "308": {
     "id": "308",
@@ -4465,11 +4485,11 @@
     "latitude": 51.54654773,
     "longitude": -0.1467564086,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5464715,
         "longitude": -0.1466379
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5464715,
         "longitude": -0.1466379
       }
@@ -4485,7 +4505,7 @@
         "latitude": 51.580912,
         "longitude": -0.3159444
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.580912,
         "longitude": -0.3159444
       }
@@ -4497,7 +4517,7 @@
     "latitude": 51.49000415,
     "longitude": -0.2888464899,
     "stops": {
-}
+    }
   },
   "312": {
     "id": "312",
@@ -4509,7 +4529,7 @@
         "latitude": 51.476592,
         "longitude": -0.2851386
       },
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.4768472,
         "longitude": -0.2851036
       }
@@ -4521,7 +4541,7 @@
     "latitude": 51.46269024,
     "longitude": 0.02830023919,
     "stops": {
-}
+    }
   },
   "314": {
     "id": "314",
@@ -4541,7 +4561,7 @@
     "latitude": 51.53726743,
     "longitude": -0.1911131036,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5375214,
         "longitude": -0.191953
       }
@@ -4581,7 +4601,7 @@
     "latitude": 51.34536407,
     "longitude": -0.02026475742,
     "stops": {
-}
+    }
   },
   "319": {
     "id": "319",
@@ -4589,7 +4609,7 @@
     "latitude": 51.53079799,
     "longitude": -0.1227564205,
     "stops": {
-}
+    }
   },
   "320": {
     "id": "320",
@@ -4665,7 +4685,7 @@
     "latitude": 51.41264127,
     "longitude": -0.3011410349,
     "stops": {
-}
+    }
   },
   "323": {
     "id": "323",
@@ -4673,7 +4693,7 @@
     "latitude": 51.29472279,
     "longitude": -0.2112332235,
     "stops": {
-}
+    }
   },
   "324": {
     "id": "324",
@@ -4701,7 +4721,7 @@
     "latitude": 51.34575216,
     "longitude": 0.1308310398,
     "stops": {
-}
+    }
   },
   "326": {
     "id": "326",
@@ -4725,7 +4745,7 @@
     "latitude": 51.45619211,
     "longitude": -0.01924440113,
     "stops": {
-}
+    }
   },
   "328": {
     "id": "328",
@@ -4805,7 +4825,7 @@
     "latitude": 51.5666362,
     "longitude": -0.03668315766,
     "stops": {
-}
+    }
   },
   "334": {
     "id": "334",
@@ -4813,7 +4833,7 @@
     "latitude": 51.37519886,
     "longitude": -0.08497364876,
     "stops": {
-}
+    }
   },
   "335": {
     "id": "335",
@@ -4821,7 +4841,7 @@
     "latitude": 51.44945854,
     "longitude": 0.01336469238,
     "stops": {
-}
+    }
   },
   "336": {
     "id": "336",
@@ -4889,7 +4909,11 @@
     "latitude": 51.56936423,
     "longitude": -0.00806634743,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.569764,
+        "longitude": -0.008046
+      }
+    }
   },
   "340": {
     "id": "340",
@@ -4913,7 +4937,11 @@
     "latitude": 51.56380736,
     "longitude": 0.008254468836,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.563533,
+        "longitude": 0.008497
+      }
+    }
   },
   "342": {
     "id": "342",
@@ -4985,15 +5013,15 @@
         "latitude": 51.5171842,
         "longitude": -0.0825554
       },
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.5181231,
         "longitude": -0.0823805
       },
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5181231,
         "longitude": -0.0823805
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5181231,
         "longitude": -0.0823805
       }
@@ -5005,7 +5033,7 @@
     "latitude": 51.36427541,
     "longitude": -0.0807462727,
     "stops": {
-}
+    }
   },
   "345": {
     "id": "345",
@@ -5053,11 +5081,11 @@
     "latitude": 51.54071875,
     "longitude": -0.05769968622,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5408112,
         "longitude": -0.0579493
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5408112,
         "longitude": -0.0579493
       }
@@ -5069,7 +5097,7 @@
     "latitude": 51.46667873,
     "longitude": -0.1024973409,
     "stops": {
-}
+    }
   },
   "349": {
     "id": "349",
@@ -5089,7 +5117,7 @@
     "latitude": 51.42484679,
     "longitude": -0.03333034148,
     "stops": {
-}
+    }
   },
   "351": {
     "id": "351",
@@ -5125,7 +5153,7 @@
     "latitude": 51.38460911,
     "longitude": -0.2611204124,
     "stops": {
-}
+    }
   },
   "354": {
     "id": "354",
@@ -5229,7 +5257,7 @@
     "latitude": 51.48301366,
     "longitude": 0.003204896819,
     "stops": {
-}
+    }
   },
   "361": {
     "id": "361",
@@ -5237,7 +5265,7 @@
     "latitude": 51.60831171,
     "longitude": -0.05095990638,
     "stops": {
-}
+    }
   },
   "362": {
     "id": "362",
@@ -5245,7 +5273,7 @@
     "latitude": 51.41339128,
     "longitude": -0.2013420288,
     "stops": {
-}
+    }
   },
   "363": {
     "id": "363",
@@ -5273,7 +5301,7 @@
     "latitude": 51.61287072,
     "longitude": -0.2495370649,
     "stops": {
-}
+    }
   },
   "365": {
     "id": "365",
@@ -5297,7 +5325,7 @@
     "latitude": 51.39748834,
     "longitude": -0.1708716455,
     "stops": {
-}
+    }
   },
   "367": {
     "id": "367",
@@ -5305,7 +5333,7 @@
     "latitude": 51.40838366,
     "longitude": -0.1540017174,
     "stops": {
-}
+    }
   },
   "368": {
     "id": "368",
@@ -5313,7 +5341,7 @@
     "latitude": 51.39304231,
     "longitude": -0.1574366422,
     "stops": {
-}
+    }
   },
   "369": {
     "id": "369",
@@ -5425,7 +5453,7 @@
     "latitude": 51.40887158,
     "longitude": -0.1928056751,
     "stops": {
-}
+    }
   },
   "374": {
     "id": "374",
@@ -5433,7 +5461,7 @@
     "latitude": 51.39630737,
     "longitude": -0.2003015597,
     "stops": {
-}
+    }
   },
   "375": {
     "id": "375",
@@ -5461,7 +5489,7 @@
     "latitude": 51.4681675,
     "longitude": -0.2672033098,
     "stops": {
-}
+    }
   },
   "377": {
     "id": "377",
@@ -5469,7 +5497,7 @@
     "latitude": 51.39531924,
     "longitude": -0.2394397426,
     "stops": {
-}
+    }
   },
   "378": {
     "id": "378",
@@ -5477,7 +5505,7 @@
     "latitude": 51.43982506,
     "longitude": 0.05032420233,
     "stops": {
-}
+    }
   },
   "379": {
     "id": "379",
@@ -5509,7 +5537,7 @@
     "latitude": 51.34259048,
     "longitude": -0.01738332707,
     "stops": {
-}
+    }
   },
   "382": {
     "id": "382",
@@ -5517,7 +5545,7 @@
     "latitude": 51.64853649,
     "longitude": -0.1729697123,
     "stops": {
-}
+    }
   },
   "383": {
     "id": "383",
@@ -5525,7 +5553,7 @@
     "latitude": 51.41670549,
     "longitude": -0.03530494925,
     "stops": {
-}
+    }
   },
   "384": {
     "id": "384",
@@ -5533,7 +5561,7 @@
     "latitude": 51.47642936,
     "longitude": -0.03227881145,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.4767351,
         "longitude": -0.0324674
       }
@@ -5545,11 +5573,11 @@
     "latitude": 51.47526487,
     "longitude": -0.03952905185,
     "stops": {
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4754328,
         "longitude": -0.0402214
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4754328,
         "longitude": -0.0402214
       }
@@ -5561,7 +5589,7 @@
     "latitude": 51.43769078,
     "longitude": 0.07044461869,
     "stops": {
-}
+    }
   },
   "387": {
     "id": "387",
@@ -5569,7 +5597,7 @@
     "latitude": 51.40355549,
     "longitude": -0.2562181023,
     "stops": {
-}
+    }
   },
   "388": {
     "id": "388",
@@ -5577,7 +5605,7 @@
     "latitude": 51.61409344,
     "longitude": -0.1430097749,
     "stops": {
-}
+    }
   },
   "389": {
     "id": "389",
@@ -5613,7 +5641,7 @@
     "latitude": 51.41190889,
     "longitude": -0.2841999432,
     "stops": {
-}
+    }
   },
   "392": {
     "id": "392",
@@ -5621,7 +5649,7 @@
     "latitude": 51.4111883,
     "longitude": -0.122799401,
     "stops": {
-}
+    }
   },
   "393": {
     "id": "393",
@@ -5645,7 +5673,7 @@
     "latitude": 51.45448167,
     "longitude": -0.08791868027,
     "stops": {
-}
+    }
   },
   "395": {
     "id": "395",
@@ -5697,7 +5725,7 @@
     "latitude": 51.46541914,
     "longitude": -0.286397462,
     "stops": {
-}
+    }
   },
   "399": {
     "id": "399",
@@ -5709,7 +5737,7 @@
         "latitude": 51.5624292,
         "longitude": -0.3038645
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5624292,
         "longitude": -0.3038645
       }
@@ -5749,7 +5777,7 @@
     "latitude": 51.55761847,
     "longitude": -0.3594341889,
     "stops": {
-}
+    }
   },
   "403": {
     "id": "403",
@@ -5757,7 +5785,7 @@
     "latitude": 51.60201565,
     "longitude": -0.05413202547,
     "stops": {
-}
+    }
   },
   "404": {
     "id": "404",
@@ -5829,7 +5857,7 @@
     "latitude": 51.3969542,
     "longitude": -0.07520985621,
     "stops": {
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.3965485,
         "longitude": -0.074966
       }
@@ -5865,7 +5893,7 @@
     "latitude": 51.4665799,
     "longitude": -0.05367974248,
     "stops": {
-}
+    }
   },
   "410": {
     "id": "410",
@@ -5873,7 +5901,7 @@
     "latitude": 51.63767609,
     "longitude": -0.166194965,
     "stops": {
-}
+    }
   },
   "411": {
     "id": "411",
@@ -5901,7 +5929,7 @@
     "latitude": 51.52199012,
     "longitude": 0.29048348,
     "stops": {
-}
+    }
   },
   "413": {
     "id": "413",
@@ -5929,7 +5957,7 @@
     "latitude": 51.3735202,
     "longitude": 0.08902890194,
     "stops": {
-}
+    }
   },
   "415": {
     "id": "415",
@@ -6037,7 +6065,7 @@
     "latitude": 51.61878657,
     "longitude": -0.1102724993,
     "stops": {
-}
+    }
   },
   "420": {
     "id": "420",
@@ -6073,7 +6101,7 @@
     "latitude": 51.46951125,
     "longitude": -0.06998355291,
     "stops": {
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4694495,
         "longitude": -0.0703864
       }
@@ -6085,7 +6113,7 @@
     "latitude": 51.41997526,
     "longitude": -0.05449526464,
     "stops": {
-}
+    }
   },
   "424": {
     "id": "424",
@@ -6093,7 +6121,7 @@
     "latitude": 51.41806283,
     "longitude": -0.06064576434,
     "stops": {
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.417819,
         "longitude": -0.0603054
       }
@@ -6117,7 +6145,7 @@
     "latitude": 51.38859912,
     "longitude": 0.0744800301,
     "stops": {
-}
+    }
   },
   "427": {
     "id": "427",
@@ -6125,7 +6153,7 @@
     "latitude": 51.40337643,
     "longitude": -0.1822967869,
     "stops": {
-}
+    }
   },
   "428": {
     "id": "428",
@@ -6213,7 +6241,7 @@
     "latitude": 51.48979257,
     "longitude": 0.08429961697,
     "stops": {
-}
+    }
   },
   "433": {
     "id": "433",
@@ -6221,7 +6249,7 @@
     "latitude": 51.64273064,
     "longitude": -0.03452510446,
     "stops": {
-}
+    }
   },
   "434": {
     "id": "434",
@@ -6313,7 +6341,7 @@
     "latitude": 51.4811734,
     "longitude": 0.2367748391,
     "stops": {
-}
+    }
   },
   "440": {
     "id": "440",
@@ -6321,7 +6349,7 @@
     "latitude": 51.33736337,
     "longitude": -0.1136135171,
     "stops": {
-}
+    }
   },
   "441": {
     "id": "441",
@@ -6329,7 +6357,7 @@
     "latitude": 51.34698918,
     "longitude": -0.0988153325,
     "stops": {
-}
+    }
   },
   "442": {
     "id": "442",
@@ -6337,7 +6365,7 @@
     "latitude": 51.46095218,
     "longitude": -0.2166033708,
     "stops": {
-}
+    }
   },
   "443": {
     "id": "443",
@@ -6365,7 +6393,7 @@
         "latitude": 51.5341571,
         "longitude": -0.2047893
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5342345,
         "longitude": -0.2049092
       }
@@ -6377,7 +6405,7 @@
     "latitude": 51.47428462,
     "longitude": -0.05735497867,
     "stops": {
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4740613,
         "longitude": -0.0569919
       }
@@ -6401,7 +6429,7 @@
     "latitude": 51.47495889,
     "longitude": -0.1473553108,
     "stops": {
-}
+    }
   },
   "448": {
     "id": "448",
@@ -6425,7 +6453,7 @@
     "latitude": 51.51734083,
     "longitude": 0.1906919776,
     "stops": {
-}
+    }
   },
   "450": {
     "id": "450",
@@ -6433,7 +6461,7 @@
     "latitude": 51.41387037,
     "longitude": -0.00693781553,
     "stops": {
-}
+    }
   },
   "451": {
     "id": "451",
@@ -6473,7 +6501,7 @@
     "latitude": 51.40937497,
     "longitude": -0.2299129363,
     "stops": {
-}
+    }
   },
   "454": {
     "id": "454",
@@ -6493,11 +6521,11 @@
     "latitude": 51.55876337,
     "longitude": -0.06838566445,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5587876,
         "longitude": -0.0684942
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5587876,
         "longitude": -0.0684942
       }
@@ -6521,7 +6549,7 @@
     "latitude": 51.33144151,
     "longitude": -0.1234026235,
     "stops": {
-}
+    }
   },
   "458": {
     "id": "458",
@@ -6529,7 +6557,7 @@
     "latitude": 51.37527703,
     "longitude": -0.1063797776,
     "stops": {
-}
+    }
   },
   "459": {
     "id": "459",
@@ -6553,7 +6581,7 @@
         "latitude": 51.4633013,
         "longitude": -0.3011185
       },
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.4632722,
         "longitude": -0.3011125
       }
@@ -6581,7 +6609,7 @@
     "latitude": 51.33267467,
     "longitude": -0.09949366691,
     "stops": {
-}
+    }
   },
   "463": {
     "id": "463",
@@ -6605,7 +6633,7 @@
         "latitude": 51.5749773,
         "longitude": 0.1833945
       },
-      "Overground-2": {
+      "Liberty": {
         "latitude": 51.5750043,
         "longitude": 0.1842022
       }
@@ -6617,19 +6645,19 @@
     "latitude": 51.50159442,
     "longitude": -0.05296629625,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5014673,
         "longitude": -0.0526158
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.5014673,
         "longitude": -0.0526158
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5014673,
         "longitude": -0.0526158
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5014673,
         "longitude": -0.0526158
       }
@@ -6745,7 +6773,7 @@
     "latitude": 51.3482461,
     "longitude": -0.09370849955,
     "stops": {
-}
+    }
   },
   "474": {
     "id": "474",
@@ -6753,7 +6781,7 @@
     "latitude": 51.37502215,
     "longitude": -0.07802658942,
     "stops": {
-}
+    }
   },
   "475": {
     "id": "475",
@@ -6761,7 +6789,7 @@
     "latitude": 51.39218563,
     "longitude": -0.08989903662,
     "stops": {
-}
+    }
   },
   "476": {
     "id": "476",
@@ -6781,17 +6809,17 @@
     "latitude": 51.58336204,
     "longitude": -0.07246682252,
     "stops": {
-      "Overground-10": {
-        "latitude": 51.5836461,
-        "longitude": -0.0750323
-      },
-      "Overground-11": {
-        "latitude": 51.5836461,
-        "longitude": -0.0750323
-      },
       "Victoria": {
         "latitude": 51.5833671,
         "longitude": -0.0720425
+      },
+      "Weaver-2": {
+        "latitude": 51.5836461,
+        "longitude": -0.0750323
+      },
+      "Weaver-3": {
+        "latitude": 51.5836461,
+        "longitude": -0.0750323
       }
     }
   },
@@ -6813,19 +6841,19 @@
         "latitude": 51.5116987,
         "longitude": -0.0567509
       },
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5112667,
         "longitude": -0.0568839
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.5112667,
         "longitude": -0.0568839
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5112667,
         "longitude": -0.0568839
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5112667,
         "longitude": -0.0568839
       }
@@ -6857,7 +6885,7 @@
         "latitude": 51.5042996,
         "longitude": -0.2184352
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5050235,
         "longitude": -0.2174927
       }
@@ -6885,19 +6913,19 @@
     "latitude": 51.5234667,
     "longitude": -0.07708742433,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5234194,
         "longitude": -0.0770647
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.5234194,
         "longitude": -0.0770647
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5234194,
         "longitude": -0.0770647
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5234194,
         "longitude": -0.0770647
       }
@@ -6909,7 +6937,7 @@
     "latitude": 51.40560237,
     "longitude": 0.00276754439,
     "stops": {
-}
+    }
   },
   "484": {
     "id": "484",
@@ -6917,7 +6945,7 @@
     "latitude": 51.43439863,
     "longitude": 0.1033153597,
     "stops": {
-}
+    }
   },
   "485": {
     "id": "485",
@@ -6925,11 +6953,11 @@
     "latitude": 51.61524236,
     "longitude": -0.07258974126,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.6129344,
         "longitude": -0.0682747
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.6129344,
         "longitude": -0.0682747
       }
@@ -6941,7 +6969,7 @@
     "latitude": 51.46774797,
     "longitude": 0.1905183897,
     "stops": {
-}
+    }
   },
   "487": {
     "id": "487",
@@ -7001,7 +7029,7 @@
     "latitude": 51.49968539,
     "longitude": -0.2702152033,
     "stops": {
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.4995814,
         "longitude": -0.2701368
       }
@@ -7013,7 +7041,7 @@
     "latitude": 51.48767653,
     "longitude": -0.05475482107,
     "stops": {
-}
+    }
   },
   "492": {
     "id": "492",
@@ -7021,7 +7049,7 @@
     "latitude": 51.36275005,
     "longitude": -0.09251736279,
     "stops": {
-}
+    }
   },
   "493": {
     "id": "493",
@@ -7045,7 +7073,7 @@
     "latitude": 51.53402701,
     "longitude": -0.3367374754,
     "stops": {
-}
+    }
   },
   "495": {
     "id": "495",
@@ -7053,7 +7081,7 @@
     "latitude": 51.54147656,
     "longitude": -0.1783711981,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5415516,
         "longitude": -0.1780774
       }
@@ -7117,7 +7145,7 @@
         "latitude": 51.5706768,
         "longitude": -0.308664
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5706768,
         "longitude": -0.308664
       }
@@ -7129,7 +7157,7 @@
     "latitude": 51.40324022,
     "longitude": -0.2055502989,
     "stops": {
-}
+    }
   },
   "500": {
     "id": "500",
@@ -7161,7 +7189,11 @@
     "latitude": 51.58040247,
     "longitude": -0.07185595631,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.580404,
+        "longitude": -0.07187
+      }
+    }
   },
   "503": {
     "id": "503",
@@ -7221,7 +7253,7 @@
     "latitude": 51.64843364,
     "longitude": -0.0529833104,
     "stops": {
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.6484121,
         "longitude": -0.0525381
       }
@@ -7281,7 +7313,7 @@
     "latitude": 51.38991184,
     "longitude": -0.1990145897,
     "stops": {
-}
+    }
   },
   "511": {
     "id": "511",
@@ -7289,7 +7321,7 @@
     "latitude": 51.58060861,
     "longitude": -0.03280456168,
     "stops": {
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.5809287,
         "longitude": -0.0329508
       }
@@ -7301,7 +7333,7 @@
     "latitude": 51.46897526,
     "longitude": -0.02324066181,
     "stops": {
-}
+    }
   },
   "513": {
     "id": "513",
@@ -7309,7 +7341,7 @@
     "latitude": 51.45520547,
     "longitude": -0.3213242419,
     "stops": {
-}
+    }
   },
   "514": {
     "id": "514",
@@ -7317,7 +7349,7 @@
     "latitude": 51.39475959,
     "longitude": 0.1072179002,
     "stops": {
-}
+    }
   },
   "515": {
     "id": "515",
@@ -7325,7 +7357,7 @@
     "latitude": 51.5305542,
     "longitude": -0.1255057811,
     "stops": {
-}
+    }
   },
   "516": {
     "id": "516",
@@ -7401,11 +7433,11 @@
     "latitude": 51.57444748,
     "longitude": -0.07666834157,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5744329,
         "longitude": -0.0767326
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5744329,
         "longitude": -0.0767326
       }
@@ -7489,11 +7521,11 @@
     "latitude": 51.56463749,
     "longitude": -0.07233539438,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.5648504,
         "longitude": -0.0723525
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.5648504,
         "longitude": -0.0723525
       }
@@ -7509,7 +7541,7 @@
         "latitude": 51.5439389,
         "longitude": -0.2757082
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5439389,
         "longitude": -0.2757082
       }
@@ -7521,7 +7553,7 @@
     "latitude": 51.36336365,
     "longitude": -0.2487096535,
     "stops": {
-}
+    }
   },
   "528": {
     "id": "528",
@@ -7553,11 +7585,11 @@
         "latitude": 51.5408799,
         "longitude": -0.0034048
       },
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5422192,
         "longitude": -0.0041233
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5422192,
         "longitude": -0.0041233
       }
@@ -7593,7 +7625,7 @@
     "latitude": 51.43974728,
     "longitude": -0.3396177244,
     "stops": {
-}
+    }
   },
   "532": {
     "id": "532",
@@ -7601,7 +7633,7 @@
     "latitude": 51.42584565,
     "longitude": -0.1323254957,
     "stops": {
-}
+    }
   },
   "533": {
     "id": "533",
@@ -7609,7 +7641,7 @@
     "latitude": 51.41898445,
     "longitude": -0.135726164,
     "stops": {
-}
+    }
   },
   "534": {
     "id": "534",
@@ -7617,7 +7649,7 @@
     "latitude": 51.43846016,
     "longitude": -0.1276814805,
     "stops": {
-}
+    }
   },
   "535": {
     "id": "535",
@@ -7625,7 +7657,7 @@
     "latitude": 51.55449327,
     "longitude": -0.3159262359,
     "stops": {
-}
+    }
   },
   "536": {
     "id": "536",
@@ -7645,7 +7677,7 @@
     "latitude": 51.55834173,
     "longitude": -0.3354466866,
     "stops": {
-}
+    }
   },
   "538": {
     "id": "538",
@@ -7665,7 +7697,7 @@
     "latitude": 51.41339384,
     "longitude": 0.02036510903,
     "stops": {
-}
+    }
   },
   "540": {
     "id": "540",
@@ -7673,7 +7705,7 @@
     "latitude": 51.39259904,
     "longitude": -0.3043845544,
     "stops": {
-}
+    }
   },
   "541": {
     "id": "541",
@@ -7681,19 +7713,19 @@
     "latitude": 51.49326678,
     "longitude": -0.04752998753,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.4933304,
         "longitude": -0.0476221
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4933304,
         "longitude": -0.0476221
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4933304,
         "longitude": -0.0476221
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4933304,
         "longitude": -0.0476221
       }
@@ -7705,7 +7737,7 @@
     "latitude": 51.35950582,
     "longitude": -0.191302009,
     "stops": {
-}
+    }
   },
   "543": {
     "id": "543",
@@ -7713,7 +7745,7 @@
     "latitude": 51.37555437,
     "longitude": -0.1969199101,
     "stops": {
-}
+    }
   },
   "544": {
     "id": "544",
@@ -7733,11 +7765,11 @@
     "latitude": 51.42734116,
     "longitude": -0.05508867076,
     "stops": {
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.4268339,
         "longitude": -0.0545599
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.4268339,
         "longitude": -0.0545599
       }
@@ -7749,7 +7781,7 @@
     "latitude": 51.43257576,
     "longitude": -0.08023020751,
     "stops": {
-}
+    }
   },
   "547": {
     "id": "547",
@@ -7757,7 +7789,7 @@
     "latitude": 51.48147416,
     "longitude": -0.3264950284,
     "stops": {
-}
+    }
   },
   "548": {
     "id": "548",
@@ -7765,7 +7797,7 @@
     "latitude": 51.29162748,
     "longitude": -0.2360080126,
     "stops": {
-}
+    }
   },
   "549": {
     "id": "549",
@@ -7785,7 +7817,7 @@
     "latitude": 51.30918092,
     "longitude": -0.2425662694,
     "stops": {
-}
+    }
   },
   "551": {
     "id": "551",
@@ -7793,7 +7825,7 @@
     "latitude": 51.42449695,
     "longitude": -0.3327053306,
     "stops": {
-}
+    }
   },
   "552": {
     "id": "552",
@@ -7825,7 +7857,7 @@
     "latitude": 51.38861552,
     "longitude": -0.338292831,
     "stops": {
-}
+    }
   },
   "554": {
     "id": "554",
@@ -7833,7 +7865,7 @@
     "latitude": 51.69237253,
     "longitude": -0.03474813434,
     "stops": {
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.6924063,
         "longitude": -0.0347685
       }
@@ -7845,7 +7877,7 @@
     "latitude": 51.38568558,
     "longitude": -0.1290171059,
     "stops": {
-}
+    }
   },
   "556": {
     "id": "556",
@@ -7865,7 +7897,7 @@
     "latitude": 51.39848092,
     "longitude": -0.1004331645,
     "stops": {
-}
+    }
   },
   "558": {
     "id": "558",
@@ -7873,7 +7905,7 @@
     "latitude": 51.37684286,
     "longitude": -0.2796201104,
     "stops": {
-}
+    }
   },
   "559": {
     "id": "559",
@@ -7881,7 +7913,7 @@
     "latitude": 51.41989637,
     "longitude": -0.1610024706,
     "stops": {
-}
+    }
   },
   "560": {
     "id": "560",
@@ -8061,7 +8093,7 @@
     "latitude": 51.43979726,
     "longitude": -0.1051225085,
     "stops": {
-}
+    }
   },
   "569": {
     "id": "569",
@@ -8069,7 +8101,7 @@
     "latitude": 51.67265359,
     "longitude": -0.04722993123,
     "stops": {
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.6726632,
         "longitude": -0.0472263
       }
@@ -8129,7 +8161,7 @@
     "latitude": 51.45025041,
     "longitude": -0.3288602201,
     "stops": {
-}
+    }
   },
   "573": {
     "id": "573",
@@ -8157,7 +8189,7 @@
         "latitude": 51.559009,
         "longitude": 0.2517952
       },
-      "Overground-2": {
+      "Liberty": {
         "latitude": 51.5591727,
         "longitude": 0.251844
       }
@@ -8201,7 +8233,11 @@
     "latitude": 51.5636231,
     "longitude": -0.1291093627,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.563398,
+        "longitude": -0.129712
+      }
+    }
   },
   "578": {
     "id": "578",
@@ -8209,7 +8245,7 @@
     "latitude": 51.30877213,
     "longitude": -0.07748166157,
     "stops": {
-}
+    }
   },
   "579": {
     "id": "579",
@@ -8297,7 +8333,7 @@
     "latitude": 51.36737907,
     "longitude": -0.1173940758,
     "stops": {
-}
+    }
   },
   "584": {
     "id": "584",
@@ -8305,7 +8341,7 @@
     "latitude": 51.37708276,
     "longitude": -0.1179874641,
     "stops": {
-}
+    }
   },
   "585": {
     "id": "585",
@@ -8313,7 +8349,7 @@
     "latitude": 51.3603313,
     "longitude": -0.1508638338,
     "stops": {
-}
+    }
   },
   "586": {
     "id": "586",
@@ -8321,7 +8357,7 @@
     "latitude": 51.68525722,
     "longitude": -0.02656425721,
     "stops": {
-}
+    }
   },
   "587": {
     "id": "587",
@@ -8329,13 +8365,13 @@
     "latitude": 51.58301808,
     "longitude": -0.01994054501,
     "stops": {
-      "Overground-9": {
-        "latitude": 51.582907,
-        "longitude": -0.019972
-      },
       "Victoria": {
         "latitude": 51.582818,
         "longitude": -0.0199245
+      },
+      "Weaver-1": {
+        "latitude": 51.582907,
+        "longitude": -0.019972
       }
     }
   },
@@ -8345,7 +8381,11 @@
     "latitude": 51.58154616,
     "longitude": -0.0238439433,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.58158,
+        "longitude": -0.023891
+      }
+    }
   },
   "589": {
     "id": "589",
@@ -8353,7 +8393,7 @@
     "latitude": 51.37340053,
     "longitude": -0.1132533204,
     "stops": {
-}
+    }
   },
   "590": {
     "id": "590",
@@ -8361,7 +8401,7 @@
     "latitude": 51.44636534,
     "longitude": -0.1635369794,
     "stops": {
-}
+    }
   },
   "591": {
     "id": "591",
@@ -8369,7 +8409,7 @@
     "latitude": 51.47022298,
     "longitude": -0.1390376746,
     "stops": {
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.4703861,
         "longitude": -0.138878
       }
@@ -8381,7 +8421,7 @@
     "latitude": 51.46103377,
     "longitude": -0.1879100357,
     "stops": {
-}
+    }
   },
   "593": {
     "id": "593",
@@ -8401,7 +8441,11 @@
     "latitude": 51.55177812,
     "longitude": 0.02638994305,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.551718,
+        "longitude": 0.026322
+      }
+    }
   },
   "595": {
     "id": "595",
@@ -8409,19 +8453,19 @@
     "latitude": 51.50434023,
     "longitude": -0.05586081436,
     "stops": {
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5043221,
         "longitude": -0.0558997
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.5043221,
         "longitude": -0.0558997
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5043221,
         "longitude": -0.0558997
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5043221,
         "longitude": -0.0558997
       }
@@ -8501,7 +8545,7 @@
     "latitude": 51.50416843,
     "longitude": -0.1091536369,
     "stops": {
-}
+    }
   },
   "600": {
     "id": "600",
@@ -8521,7 +8565,7 @@
     "latitude": 51.65265307,
     "longitude": -0.3916967204,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.6526077,
         "longitude": -0.3915983
       }
@@ -8533,7 +8577,7 @@
     "latitude": 51.66388237,
     "longitude": -0.396171948,
     "stops": {
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.6633581,
         "longitude": -0.3960456
       }
@@ -8545,7 +8589,7 @@
     "latitude": 51.37536738,
     "longitude": -0.09752490809,
     "stops": {
-}
+    }
   },
   "604": {
     "id": "604",
@@ -8553,7 +8597,7 @@
     "latitude": 51.46477726,
     "longitude": 0.1017750391,
     "stops": {
-}
+    }
   },
   "605": {
     "id": "605",
@@ -8565,7 +8609,7 @@
         "latitude": 51.5522737,
         "longitude": -0.296814
       },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.5522737,
         "longitude": -0.296814
       }
@@ -8605,7 +8649,7 @@
     "latitude": 51.5546541,
     "longitude": -0.286046442,
     "stops": {
-}
+    }
   },
   "608": {
     "id": "608",
@@ -8633,7 +8677,7 @@
         "latitude": 51.4873148,
         "longitude": -0.1955924
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.4871208,
         "longitude": -0.1957082
       }
@@ -8645,7 +8689,7 @@
     "latitude": 51.37855201,
     "longitude": -0.1020342923,
     "stops": {
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.3787465,
         "longitude": -0.1020548
       }
@@ -8673,7 +8717,7 @@
     "latitude": 51.44091168,
     "longitude": -0.09067267592,
     "stops": {
-}
+    }
   },
   "613": {
     "id": "613",
@@ -8749,11 +8793,11 @@
         "latitude": 51.5467966,
         "longitude": -0.1912068
       },
-      "Overground-1": {
+      "Mildmay-1": {
         "latitude": 51.5474748,
         "longitude": -0.1912726
       },
-      "Overground-4": {
+      "Mildmay-2": {
         "latitude": 51.5474748,
         "longitude": -0.1912726
       }
@@ -8765,7 +8809,7 @@
     "latitude": 51.54862881,
     "longitude": -0.1925375176,
     "stops": {
-}
+    }
   },
   "618": {
     "id": "618",
@@ -8813,7 +8857,7 @@
     "latitude": 51.43124095,
     "longitude": -0.1031891343,
     "stops": {
-}
+    }
   },
   "622": {
     "id": "622",
@@ -8849,7 +8893,7 @@
     "latitude": 51.3661498,
     "longitude": -0.204644546,
     "stops": {
-}
+    }
   },
   "625": {
     "id": "625",
@@ -8857,7 +8901,7 @@
     "latitude": 51.38128418,
     "longitude": -0.01457633041,
     "stops": {
-}
+    }
   },
   "626": {
     "id": "626",
@@ -8881,7 +8925,7 @@
     "latitude": 51.48450893,
     "longitude": 0.01774570026,
     "stops": {
-}
+    }
   },
   "628": {
     "id": "628",
@@ -8953,11 +8997,11 @@
     "latitude": 51.60503466,
     "longitude": -0.07087032654,
     "stops": {
-      "Overground-10": {
+      "Weaver-2": {
         "latitude": 51.6049252,
         "longitude": -0.0709621
       },
-      "Overground-11": {
+      "Weaver-3": {
         "latitude": 51.6049252,
         "longitude": -0.0709621
       }
@@ -9001,19 +9045,19 @@
         "latitude": 51.5197925,
         "longitude": -0.0593181
       },
-      "Overground-5": {
+      "Windrush-1": {
         "latitude": 51.5195749,
         "longitude": -0.0598015
       },
-      "Overground-6": {
+      "Windrush-2": {
         "latitude": 51.5195749,
         "longitude": -0.0598015
       },
-      "Overground-7": {
+      "Windrush-3": {
         "latitude": 51.5195749,
         "longitude": -0.0598015
       },
-      "Overground-8": {
+      "Windrush-4": {
         "latitude": 51.5195749,
         "longitude": -0.0598015
       }
@@ -9025,7 +9069,7 @@
     "latitude": 51.44958761,
     "longitude": -0.3576820534,
     "stops": {
-}
+    }
   },
   "634": {
     "id": "634",
@@ -9033,7 +9077,7 @@
     "latitude": 51.30992919,
     "longitude": -0.08113516501,
     "stops": {
-}
+    }
   },
   "635": {
     "id": "635",
@@ -9041,7 +9085,7 @@
     "latitude": 51.30348968,
     "longitude": -0.07671251441,
     "stops": {
-}
+    }
   },
   "636": {
     "id": "636",
@@ -9065,15 +9109,15 @@
         "latitude": 51.532448,
         "longitude": -0.2439253
       },
-      "Overground-1": {
-        "latitude": 51.5319239,
-        "longitude": -0.2437875
-      },
-      "Overground-3": {
+      "Lioness": {
         "latitude": 51.532448,
         "longitude": -0.2439253
       },
-      "Overground-4": {
+      "Mildmay-1": {
+        "latitude": 51.5319239,
+        "longitude": -0.2437875
+      },
+      "Mildmay-2": {
         "latitude": 51.5319239,
         "longitude": -0.2437875
       }
@@ -9101,7 +9145,7 @@
     "latitude": 51.40953058,
     "longitude": -0.2140897671,
     "stops": {
-}
+    }
   },
   "640": {
     "id": "640",
@@ -9125,7 +9169,7 @@
     "latitude": 51.6338867,
     "longitude": -0.1009169327,
     "stops": {
-}
+    }
   },
   "642": {
     "id": "642",
@@ -9169,7 +9213,7 @@
     "latitude": 51.58666994,
     "longitude": -0.001953898013,
     "stops": {
-      "Overground-9": {
+      "Weaver-1": {
         "latitude": 51.5868056,
         "longitude": -0.0020561
       }
@@ -9197,7 +9241,11 @@
     "latitude": 51.54905261,
     "longitude": 0.04457249623,
     "stops": {
-}
+      "Suffragette": {
+        "latitude": 51.549226,
+        "longitude": 0.044409
+      }
+    }
   },
   "647": {
     "id": "647",
@@ -9205,7 +9253,7 @@
     "latitude": 51.31901833,
     "longitude": -0.1542621272,
     "stops": {
-}
+    }
   },
   "648": {
     "id": "648",
@@ -9213,7 +9261,7 @@
     "latitude": 51.38709758,
     "longitude": -0.06534717786,
     "stops": {
-}
+    }
   },
   "649": {
     "id": "649",
@@ -9273,7 +9321,7 @@
     "latitude": 51.49110789,
     "longitude": 0.05461234849,
     "stops": {
-}
+    }
   },
   "653": {
     "id": "653",
@@ -9281,6 +9329,18 @@
     "latitude": 51.38110409,
     "longitude": -0.2455752883,
     "stops": {
-}
+    }
+  },
+  "654": {
+    "id": "654",
+    "name": "Barking Riverside",
+    "latitude": 51.5195582,
+    "longitude": 0.1160126,
+    "stops": {
+      "Suffragette": {
+        "latitude": 51.519576,
+        "longitude": 0.115909
+      }
+    }
   }
 }

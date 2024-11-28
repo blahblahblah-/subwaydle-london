@@ -3,31 +3,37 @@ import { useTranslation, Trans } from 'react-i18next';
 
 import routes from '../data/routes.json';
 
-const classNames = (size) => {
-  if (size === 'small') {
-    return 'small route bullet';
-  } else if (size === 'medium') {
-    return 'medium route bullet';
-  }
-  return 'route bullet';
-}
+const TUBE_ROUTES = [
+  "Bakerloo",
+  "Central",
+  "Circle",
+  "District",
+  "Hammersmith",
+  "Jubilee",
+  "Metropolitan",
+  "Northern",
+  "Piccadilly",
+  "Victoria",
+  "Waterloo",
+]
 
 const style = (train) => {
-  const { color, text_color } = train;
+  const { id, color, text_color } = train;
   let styleHash = {
     backgroundColor: `${color}`,
     color: text_color || '#ffffff',
     margin: 0,
   };
 
-  return styleHash;
-}
-
-const innerStyle = (name, size, shortenedAlternateName) => {
-  let nameLength = name.length + (shortenedAlternateName?.length || 0);
-  if (size === 'small' && nameLength > 2) {
-    return { fontSize: '.9em' };
+  if (!TUBE_ROUTES.includes(id)) {
+    styleHash = {
+      background: `linear-gradient(to bottom, ${color}, ${color} 20%, #ffffff 20%, #ffffff 80%, ${color} 80%, ${color})`,
+      color: '#000000',
+      margin: 0,
+    };
   }
+
+  return styleHash;
 }
 
 const TrainLabel = (props) => {

@@ -54,7 +54,7 @@ const AboutModal = (props) => {
             <Grid.Row>
               <Grid.Column>
                 <Segment placeholder>
-                  <TrainLabel id='Overground' size='small' />
+                  <TrainLabel id='Piccadilly' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -64,7 +64,7 @@ const AboutModal = (props) => {
                       <Icon name="arrows alternate horizontal" fitted />
                     </Label>
                   }
-                  <TrainLabel id='Overground' size='small' />
+                  <TrainLabel id='Mildmay' size='small' />
                 </Segment>
               </Grid.Column>
               <Grid.Column>
@@ -75,7 +75,7 @@ const AboutModal = (props) => {
             </Grid.Row>
           </Grid>
         </Segment>
-        <p><TrainLabel id='Overground' size='small' /> { t('about.examples.present') }</p>
+        <p><TrainLabel id='Mildmay' size='small' /> { t('about.examples.present') }</p>
 
         <Segment basic>
           <Grid centered columns={3} className={isDarkMode ? 'game-grid dark' : 'game-grid'}>

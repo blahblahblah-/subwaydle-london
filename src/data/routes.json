@@ -41,25 +41,42 @@
     "name": "Jubilee",
     "color": "#7C878E"
   },
+  "Liberty":{
+    "id": "Liberty",
+    "name": "Liberty",
+    "color": "#61686b"
+  },
+  "Lioness":{
+    "id": "Lioness",
+    "name": "Lioness",
+    "color": "#ffa600",
+    "text_color": "#10069f"
+  },
   "Metropolitan":{
     "id": "Metropolitan",
     "name": "Metropolitan",
     "color": "#840B55"
+  },
+  "Mildmay":{
+    "id": "Mildmay",
+    "name": "Mildmay",
+    "color": "#006fe6"
   },
   "Northern":{
     "id": "Northern",
     "name": "Northern",
     "color": "#000000"
   },
-  "Overground":{
-    "id": "Overground",
-    "name": "Overground",
-    "color": "#E87722"
-  },
   "Piccadilly":{
     "id": "Piccadilly",
     "name": "Piccadilly",
     "color": "#10069f"
+  },
+  "Suffragette":{
+    "id": "Suffragette",
+    "name": "Suffragette",
+    "color": "#18a95d",
+    "text_color": "#10069f"
   },
   "Victoria":{
     "id": "Victoria",
@@ -71,5 +88,15 @@
     "name": "Waterloo & City",
     "color": "#6ECEB2",
     "text_color": "#10069f"
+  },
+  "Weaver":{
+    "id": "Weaver",
+    "name": "Weaver",
+    "color": "#9b0058"
+  },
+  "Windrush":{
+    "id": "Windrush",
+    "name": "Windrush",
+    "color": "#dc241f"
   }
 }
